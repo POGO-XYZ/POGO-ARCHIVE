@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "POGO-2024-PO-A",
+
+  "title": "Untitled",
+  "year": "2023",
+  "type_code": "PO",
+  "sequence": "A",
+
+  "dimensions": "11 in x 15 in",
+  "medium": "Ink on 140lb paper",
+  "focus": "multi",
+  "series": "none",
+  "notes": "none",
+
+  "files": [
+    {
+      "role": "reference_image_source",
+      "url": null,
+      "sha256": "2386BB31D48E21122B24B84F3772EA3C228B9E49245B826CFB04F08E72AF9124",
+      "mime_type": "image/png",
+      "note": "Artist-authored canonical source image (PNG)"
+    },
+    {
+      "role": "reference_image_web",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/a6fe12ac-0513-43e2-a02b-8a4ea4aff6e4/POGO-2024-PO-A.png",
+      "sha256": "13682EB828408CD4FF57464ECB1B773EB0BBA0A4771846B0DE7A8FBC31935E7C",
+      "mime_type": "image/webp",
+      "note": "Publicly served image as delivered by Squarespace CDN"
+    }
+  ],
+
+  "events": [
+    {
+      "event_id": "artwork completed",
+      "type": "creation",
+      "date": "2023",
+      "note": "Physical artwork completed"
+    },
+    {
+      "event_id": "artwork_recorded",
+      "type": "archival",
+      "date": "2025-12-31",
+      "note": "Recorded in the POGO Studios official archive"
+    }
+  ],
+
+  "legacy_record": {
+    "system": "2024 multi-chain archive",
+    "format": "perma_file_pdf",
+    "url": "https://ux6me6vcimqucpampjbssuzgbiyqkit6fdbjultyxytsalcx6rca.arweave.net/pfzCeqJDIUE8DHpDKVMmCjEFIn4owpoueL4nICxX9EQ",
+    "note": "Previously recorded using the 2024 legacy archival system"
+  },
+
+  "attestations": []
+}
