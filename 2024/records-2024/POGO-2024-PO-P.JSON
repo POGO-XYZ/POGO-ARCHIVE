@@ -1,31 +1,30 @@
-
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2024-PO-G",
+  "artifact_id": "POGO-2024-PO-P",
 
   "title": "Untitled",
   "year": "2023",
   "type_code": "PO",
-  "sequence": "G",
+  "sequence": "P",
 
   "dimensions": "11 in × 15 in",
   "medium": "ink on 140lb paper",
-  "focus": "dots",
-  "series": "none",
+  "focus": "floral",
+  "series": "florellations",
   "notes": "none",
 
   "files": [
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "B1E720F2BB2E1193DCF6B81E84623C1E32BAE150C2160181B18714A48EF5B74F",
+      "sha256": "4F0B75EC2E14AC0CA5E286B3B62427C55434808C1A6E70FE0DF43F20EB44F44A",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
     },
     {
       "role": "reference_image_web",
-      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/1f359e63-f31f-4be7-a192-516384eb6283/POGO-2024-PO-G.png",
-      "sha256": "EFC4AF0F1E3E14F84EC8CDB3D2C8AEC7FF2B9829E687F43DFD151C193A51DA2F",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/0e909721-e877-4efa-8eca-aad0e26a9031/POGO-2024-PO-P.png",
+      "sha256": "772392BCB26DB15A374417C6FA33DFB2C7CA93383C6B4C090F2EA31A57847815",
       "mime_type": "image/webp",
       "note": "Publicly served image as delivered by Squarespace CDN"
     }
@@ -49,7 +48,7 @@
   "legacy_record": {
     "system": "2024 multi-chain archive",
     "format": "perma_file_pdf",
-    "url": "HTTPS://ARWEAVE.NET/2blUTJDEgQ3Ofcc-OVWDuHPlHWeVVzFf5BReIXHYJpE",
+    "url": "HTTPS://ARWEAVE.NET/KfNfSwNVulUdnZ3kXH8uGX0v15LwiIH4FYFWyvaKP_4",
     "note": "Previously recorded using the 2024 legacy archival system"
   },
 

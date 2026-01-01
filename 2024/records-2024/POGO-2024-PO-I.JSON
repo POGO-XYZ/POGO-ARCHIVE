@@ -1,16 +1,16 @@
 
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2024-PO-G",
+  "artifact_id": "POGO-2024-PO-I",
 
   "title": "Untitled",
   "year": "2023",
   "type_code": "PO",
-  "sequence": "G",
+  "sequence": "I",
 
   "dimensions": "11 in × 15 in",
   "medium": "ink on 140lb paper",
-  "focus": "dots",
+  "focus": "grid",
   "series": "none",
   "notes": "none",
 
@@ -18,14 +18,14 @@
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "B1E720F2BB2E1193DCF6B81E84623C1E32BAE150C2160181B18714A48EF5B74F",
+      "sha256": "0F7B665A662CE286A9B755EE7A81F0496F807AAB2EE14CBC5D513E794CCCDB60",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
     },
     {
       "role": "reference_image_web",
-      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/1f359e63-f31f-4be7-a192-516384eb6283/POGO-2024-PO-G.png",
-      "sha256": "EFC4AF0F1E3E14F84EC8CDB3D2C8AEC7FF2B9829E687F43DFD151C193A51DA2F",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/8e9e8115-79c6-45f9-b17f-d768712ad555/POGO-2024-PO-I.png",
+      "sha256": "5D021FCE1E6C95194A18F993F8AF087A494D46AE71B993F0E9BDCF3C6C17EE14",
       "mime_type": "image/webp",
       "note": "Publicly served image as delivered by Squarespace CDN"
     }
@@ -49,7 +49,7 @@
   "legacy_record": {
     "system": "2024 multi-chain archive",
     "format": "perma_file_pdf",
-    "url": "HTTPS://ARWEAVE.NET/2blUTJDEgQ3Ofcc-OVWDuHPlHWeVVzFf5BReIXHYJpE",
+    "url": "HTTPS://ARWEAVE.NET/pFfL0W9XF5Ow5iNPattlQT7bJpsDGBpawQXIYT9Rfo0",
     "note": "Previously recorded using the 2024 legacy archival system"
   },
 
