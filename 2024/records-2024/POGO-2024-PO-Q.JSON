@@ -1,30 +1,30 @@
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2024-PO-K",
+  "artifact_id": "POGO-2024-PO-Q",
 
   "title": "Untitled",
   "year": "2023",
   "type_code": "PO",
-  "sequence": "K",
+  "sequence": "Q",
 
   "dimensions": "11 in × 15 in",
   "medium": "ink on 140lb paper",
-  "focus": "lines",
-  "series": "none",
+  "focus": "floral",
+  "series": "florellations",
   "notes": "none",
 
   "files": [
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "836B6184EB924D549497BF02F40D477FEA071E06942FBE15DE313798765B8BF0",
+      "sha256": "1FB5233A395C90360FEC1922D9FEB3E06CEBC135D7DD3FF011478A37C176D635",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
     },
     {
       "role": "reference_image_web",
-      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/9b48abd7-887b-4dbc-85b9-64f3cd1207de/POGO-2024-PO-K.png",
-      "sha256": "22841ADBD3C4667CAD544C18D27D8E00F6F42CBD159482B88579C746CE68BD43",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/a24383f9-3f4f-4c5f-9be1-93013582b4b2/POGO-2024-PO-Q.png",
+      "sha256": "513D61825181CF50A89E701655B2A0CCE89A7A081B961574B24DC487E948416B",
       "mime_type": "image/webp",
       "note": "Publicly served image as delivered by Squarespace CDN"
     }
@@ -38,12 +38,6 @@
       "note": "Physical artwork completed"
     },
     {
-      "event_id": "artwork_collected",
-      "type": "custodial",
-      "date": "2025-06-06",
-      "note": "Artwork transferred to independent collector"
-    },
-    {
       "event_id": "artwork_recorded",
       "type": "archival",
       "date": "2026-01-01",
@@ -54,7 +48,7 @@
   "legacy_record": {
     "system": "2024 multi-chain archive",
     "format": "perma_file_pdf",
-    "url": "HTTPS://ARWEAVE.NET/24pl2qfpv-3Ca3V-cCVY09XeE1oFZxDGiJzoFjytZfE",
+    "url": "HTTPS://ARWEAVE.NET/9H6UmoDnGZTzZnxEBp4L_53ubR8DAuQ4i-6cLtlIHfI",
     "note": "Previously recorded using the 2024 legacy archival system"
   },
 

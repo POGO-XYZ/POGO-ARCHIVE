@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2024-PO-K",
+  "artifact_id": "POGO-2024-PO-T",
 
   "title": "Untitled",
   "year": "2023",
   "type_code": "PO",
-  "sequence": "K",
+  "sequence": "T",
 
-  "dimensions": "11 in × 15 in",
-  "medium": "ink on 140lb paper",
-  "focus": "lines",
+  "dimensions": "05 in × 05 in",
+  "medium": "ink on 110lb paper",
+  "focus": "multi",
   "series": "none",
   "notes": "none",
 
@@ -17,14 +17,14 @@
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "836B6184EB924D549497BF02F40D477FEA071E06942FBE15DE313798765B8BF0",
+      "sha256": "CD52E467314D0FE7C3D50F522F581F0086600B93C4F33238A7CDD014C90D2386",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
     },
     {
       "role": "reference_image_web",
-      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/9b48abd7-887b-4dbc-85b9-64f3cd1207de/POGO-2024-PO-K.png",
-      "sha256": "22841ADBD3C4667CAD544C18D27D8E00F6F42CBD159482B88579C746CE68BD43",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/67709f19-f774-4f5d-b9ab-dc59a68f2fce/POGO-2024-PO-T.png",
+      "sha256": "8C5CF8619F99A70661EABBCB557B831CEA5CB8E44B5EB55D2ACB625220AE4031",
       "mime_type": "image/webp",
       "note": "Publicly served image as delivered by Squarespace CDN"
     }
@@ -38,12 +38,6 @@
       "note": "Physical artwork completed"
     },
     {
-      "event_id": "artwork_collected",
-      "type": "custodial",
-      "date": "2025-06-06",
-      "note": "Artwork transferred to independent collector"
-    },
-    {
       "event_id": "artwork_recorded",
       "type": "archival",
       "date": "2026-01-01",
@@ -54,7 +48,7 @@
   "legacy_record": {
     "system": "2024 multi-chain archive",
     "format": "perma_file_pdf",
-    "url": "HTTPS://ARWEAVE.NET/24pl2qfpv-3Ca3V-cCVY09XeE1oFZxDGiJzoFjytZfE",
+    "url": "HTTPS://ARWEAVE.NET/laUHy9K5nRVJEHB3I4QsqA-51HP41ccE1eKGIUJVJy8",
     "note": "Previously recorded using the 2024 legacy archival system"
   },
 

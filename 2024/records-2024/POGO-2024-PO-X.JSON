@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2024-PO-K",
+  "artifact_id": "POGO-2024-PO-X",
 
   "title": "Untitled",
   "year": "2023",
   "type_code": "PO",
-  "sequence": "K",
+  "sequence": "X",
 
-  "dimensions": "11 in × 15 in",
+  "dimensions": "22 in × 30 in",
   "medium": "ink on 140lb paper",
   "focus": "lines",
   "series": "none",
@@ -17,14 +17,14 @@
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "836B6184EB924D549497BF02F40D477FEA071E06942FBE15DE313798765B8BF0",
+      "sha256": "1F12B7A710BE6815B6F2FF594F4BE478002883DEAAA60B83FA0772CA301F8705",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
     },
     {
       "role": "reference_image_web",
-      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/9b48abd7-887b-4dbc-85b9-64f3cd1207de/POGO-2024-PO-K.png",
-      "sha256": "22841ADBD3C4667CAD544C18D27D8E00F6F42CBD159482B88579C746CE68BD43",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/6f6c220c-c602-4168-aaa6-e9eed6d7e712/POGO-2024-PO-X.png",
+      "sha256": "97FE085E1278B150E4AE87168C001EAA487652AF8E75CD2DA66AE6451966A7B5",
       "mime_type": "image/webp",
       "note": "Publicly served image as delivered by Squarespace CDN"
     }
@@ -38,12 +38,6 @@
       "note": "Physical artwork completed"
     },
     {
-      "event_id": "artwork_collected",
-      "type": "custodial",
-      "date": "2025-06-06",
-      "note": "Artwork transferred to independent collector"
-    },
-    {
       "event_id": "artwork_recorded",
       "type": "archival",
       "date": "2026-01-01",
@@ -54,7 +48,7 @@
   "legacy_record": {
     "system": "2024 multi-chain archive",
     "format": "perma_file_pdf",
-    "url": "HTTPS://ARWEAVE.NET/24pl2qfpv-3Ca3V-cCVY09XeE1oFZxDGiJzoFjytZfE",
+    "url": "HTTPS://ARWEAVE.NET/i3QjsZTK5VMpEKrdLJRu3yQzt20ylUxXn0URpnwbuQY",
     "note": "Previously recorded using the 2024 legacy archival system"
   },
 

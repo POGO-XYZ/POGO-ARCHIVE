@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2024-PO-K",
+  "artifact_id": "POGO-2024-PO-V",
 
   "title": "Untitled",
   "year": "2023",
   "type_code": "PO",
-  "sequence": "K",
+  "sequence": "V",
 
-  "dimensions": "11 in × 15 in",
-  "medium": "ink on 140lb paper",
+  "dimensions": "18 in × 24 in",
+  "medium": "ink on 98lb paper",
   "focus": "lines",
   "series": "none",
   "notes": "none",
@@ -17,14 +17,14 @@
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "836B6184EB924D549497BF02F40D477FEA071E06942FBE15DE313798765B8BF0",
+      "sha256": "F3D8EC74A7EE0B363833B48C4200AB7BBCD4A1D6A12D3C2F0C48F6A0E4D763C1",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
     },
     {
       "role": "reference_image_web",
-      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/9b48abd7-887b-4dbc-85b9-64f3cd1207de/POGO-2024-PO-K.png",
-      "sha256": "22841ADBD3C4667CAD544C18D27D8E00F6F42CBD159482B88579C746CE68BD43",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/768642af-a058-494d-a1c0-d7bec942066e/POGO-2024-PO-V.png",
+      "sha256": "31E03FAF29BEBB7D2625581069E94651A9F699EF02656BD722678C2A6ADD78B8",
       "mime_type": "image/webp",
       "note": "Publicly served image as delivered by Squarespace CDN"
     }
@@ -36,11 +36,11 @@
       "type": "creation",
       "date": "2023",
       "note": "Physical artwork completed"
-    },
+    }, 
     {
       "event_id": "artwork_collected",
       "type": "custodial",
-      "date": "2025-06-06",
+      "date": "2025-01-01",
       "note": "Artwork transferred to independent collector"
     },
     {
@@ -54,7 +54,7 @@
   "legacy_record": {
     "system": "2024 multi-chain archive",
     "format": "perma_file_pdf",
-    "url": "HTTPS://ARWEAVE.NET/24pl2qfpv-3Ca3V-cCVY09XeE1oFZxDGiJzoFjytZfE",
+    "url": "HTTPS://ARWEAVE.NET/cPzDgkZKsX7fJRDfV3UwsmcqGMCjC63PjfxSP6YWjwU",
     "note": "Previously recorded using the 2024 legacy archival system"
   },
 

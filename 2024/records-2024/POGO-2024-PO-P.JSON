@@ -38,9 +38,15 @@
       "note": "Physical artwork completed"
     },
     {
+      "event_id": "artwork_collected",
+      "type": "custodial",
+      "date": "2025-06-07",
+      "note": "Artwork transferred to independent collector"
+    },
+    {
       "event_id": "artwork_recorded",
       "type": "archival",
-      "date": "2025-12-31",
+      "date": "2026-01-01",
       "note": "Recorded in the POGO Studios official archive"
     }
   ],
