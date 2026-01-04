@@ -1,30 +1,30 @@
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2024-PO-Z",
+  "artifact_id": "POGO-2024-PO-AQ",
 
   "title": "Untitled",
-  "year": "2024",
+  "year": "2023",
   "type_code": "PO",
-  "sequence": "Z",
+  "sequence": "AQ",
 
-  "dimensions": "22 in × 30 in",
-  "medium": "ink on 140lb paper",
-  "focus": "floral",
-  "series": "florellations",
+  "dimensions": "08 in × 08 in",
+  "medium": "ink on 110lb paper",
+  "focus": "multi",
+  "series": "none",
   "notes": "none",
 
   "files": [
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "11AA36308207A3C3E04F5616DE8F5541E2BE990CEB1F309E11D96C40E0132FD3",
+      "sha256": "9E74ED9180B1FE4816F8F2811C00493EF1E4CCF6C4692FE2291283A917EFD93D",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
     },
     {
       "role": "reference_image_web",
-      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/7745630a-9435-4105-a408-3279a7b57ce2/POGO-2024-PO-Z.png",
-      "sha256": "032D9613A44F9E06090086B8879705340F152C6DE56DDE4B07B44FF5194345F0",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/1cb264bf-d019-4960-90ae-fe7c72da0c86/POGO-2024-PO-AQ.png",
+      "sha256": "D54A5E090C69EBDB81CA3BD66F0E57946F246ABC3680166AE7FEE47CE6993198",
       "mime_type": "image/webp",
       "note": "Publicly served image as delivered by Squarespace CDN"
     }
@@ -34,13 +34,13 @@
     {
       "event_id": "artwork completed",
       "type": "creation",
-      "date": "2024",
+      "date": "2023",
       "note": "Physical artwork completed"
     },
     {
       "event_id": "artwork_recorded",
       "type": "archival",
-      "date": "2026-01-01",
+      "date": "2026-01-03",
       "note": "Recorded in the POGO Studios official archive"
     }
   ],
@@ -48,7 +48,7 @@
   "legacy_record": {
     "system": "2024 multi-chain archive",
     "format": "perma_file_pdf",
-    "url": "HTTPS://ARWEAVE.NET/9FdaoMCTEJJESdc8CYj7XlgVl7MXWNQ5PCe3KcNHSU0",
+    "url": "HTTPS://ARWEAVE.NET/xGHbI9ajt3G9-sgcIu9lWkybMeimEJYXPQF9gKqiUGA",
     "note": "Previously recorded using the 2024 legacy archival system"
   },
 

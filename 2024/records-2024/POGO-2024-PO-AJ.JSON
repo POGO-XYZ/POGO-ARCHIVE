@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2024-PO-Z",
+  "artifact_id": "POGO-2024-PO-AJ",
 
   "title": "Untitled",
   "year": "2024",
   "type_code": "PO",
-  "sequence": "Z",
+  "sequence": "AJ",
 
-  "dimensions": "22 in × 30 in",
+  "dimensions": "11 in × 15 in",
   "medium": "ink on 140lb paper",
   "focus": "floral",
   "series": "florellations",
@@ -17,14 +17,14 @@
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "11AA36308207A3C3E04F5616DE8F5541E2BE990CEB1F309E11D96C40E0132FD3",
+      "sha256": "12D31F10558E6A63D5E21FB89AC81B6E29DB9D5EDF1CBCE3C55BD9C38DAE29F6",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
     },
     {
       "role": "reference_image_web",
-      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/7745630a-9435-4105-a408-3279a7b57ce2/POGO-2024-PO-Z.png",
-      "sha256": "032D9613A44F9E06090086B8879705340F152C6DE56DDE4B07B44FF5194345F0",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/ac8ba36c-cc20-4c1f-924d-9a15bf3af5f6/POGO-2024-PO-AJ.png",
+      "sha256": "081C513847AD5EF7C29AC300A1A1C66E7EB52315FADBF6F32152FBAB665C666D",
       "mime_type": "image/webp",
       "note": "Publicly served image as delivered by Squarespace CDN"
     }
@@ -40,7 +40,7 @@
     {
       "event_id": "artwork_recorded",
       "type": "archival",
-      "date": "2026-01-01",
+      "date": "2026-01-03",
       "note": "Recorded in the POGO Studios official archive"
     }
   ],
@@ -48,7 +48,7 @@
   "legacy_record": {
     "system": "2024 multi-chain archive",
     "format": "perma_file_pdf",
-    "url": "HTTPS://ARWEAVE.NET/9FdaoMCTEJJESdc8CYj7XlgVl7MXWNQ5PCe3KcNHSU0",
+    "url": "HTTPS://ARWEAVE.NET/z4xv928LeGxF4vgZBq5AJBBzQHX9uhH4zQEbWgFpQG0",
     "note": "Previously recorded using the 2024 legacy archival system"
   },
 
