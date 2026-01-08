@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "POGO-2025-PO-DB",
+
+  "year": "2025",
+  "type_code": "PO",
+  "sequence": "DB",
+
+  "dimensions": "14 in × 17 in",
+  "medium": "ink on 135lb paper",
+  "focus": "lines",
+
+  "series": "none",
+  "set": "none",
+  "title": "untitled",
+  "notes": "none",
+
+  "files": [
+    {
+      "role": "reference_image_source",
+      "url": null,
+      "sha256": "96DC945351249F054E3600183114D9EBF46CE3B0942484E029D9EDCD2953AB2B",
+      "mime_type": "image/png",
+      "note": "Artist-authored canonical source image (PNG)"
+    },
+    {
+      "role": "reference_image_web",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/67fb7f9a-6237-49ad-8922-5f399640d0c9/POGO-2025-PO-DB.PNG",
+      "sha256": "1AEB8BB0856962A3D5FB204D84BE21FF60009FF87A8A23E012D52E41C4F51596",
+      "mime_type": "image/webp",
+      "note": "Publicly served image as delivered by Squarespace CDN"
+    }
+  ],
+
+  "events": [
+    {
+      "event_id": "artwork completed",
+      "type": "creation",
+      "date": "2025",
+      "note": "Physical artwork completed"
+    },
+    {
+      "event_id": "artwork_recorded",
+      "type": "archival",
+      "date": "2026-01-03",
+      "note": "Recorded in the POGO Studios official archive"
+    }
+  ],
+
+  "attestations": []
+}

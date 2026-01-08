@@ -6,12 +6,12 @@
   "type_code": "PO",
   "sequence": "AU",
 
-  "focus": "flex grid",
   "dimensions": "08 in × 08 in",
   "medium": "ink on 110lb paper",
+  "focus": "flex grid",
 
-  "title": "untitled",
   "series": "none",
+  "title": "untitled",
   "notes": "none",
 
   "files": [

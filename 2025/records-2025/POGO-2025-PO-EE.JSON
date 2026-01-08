@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "POGO-2025-PO-EE",
+
+  "year": "2025",
+  "type_code": "PO",
+  "sequence": "EE",
+
+  "dimensions": "18 in × 24 in",
+  "medium": "ink on 140lb paper",
+  "focus": "floral",
+
+  "series": "florellations",
+  "set": "none",
+  "title": "untitled",
+  "notes": "none",
+
+  "files": [
+    {
+      "role": "reference_image_source",
+      "url": null,
+      "sha256": "87C9E36347F237EDF2D7EA06F44368AA14279BE40862E321FFCE9F9903099EBC",
+      "mime_type": "image/png",
+      "note": "Artist-authored canonical source image (PNG)"
+    },
+    {
+      "role": "reference_image_web",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/2ad934ad-bc2b-46e0-a852-a8e1f7ce431d/POGO-2025-PO-EE.PNG",
+      "sha256": "9E8A26D3A3B0FCE06125A6C6020E2AA4550EBCB96FC1F0DD3E78A305FFED3264",
+      "mime_type": "image/webp",
+      "note": "Publicly served image as delivered by Squarespace CDN"
+    }
+  ],
+
+  "events": [
+    {
+      "event_id": "artwork completed",
+      "type": "creation",
+      "date": "2025",
+      "note": "Physical artwork completed"
+    },
+    {
+      "event_id": "artwork_recorded",
+      "type": "archival",
+      "date": "2026-01-03",
+      "note": "Recorded in the POGO Studios official archive"
+    }
+  ],
+
+  "attestations": []
+}
