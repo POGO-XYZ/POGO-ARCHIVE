@@ -1,0 +1,198 @@
+
+{
+  "archive_year": 2024,
+  "finalized_date": "2026-01-03",
+  "note": "Archive year 2024 represents the first formal effort to digitally document physical artworks created by POGO Studios. Records from this year were originally documented using a decentralized, multi-chain archival approach and are now indexed here to provide a stable, human-readable reference aligned with the studio’s evolving archival practices.",
+
+  "records": [
+{
+  "artifact_id": "POGO-2024-PO-TEST",
+  "record_path": "records/POGO-2024-PO-TEST.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-A",
+  "record_path": "records/POGO-2024-PO-A.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-B",
+  "record_path": "records/POGO-2024-PO-B.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-C",
+  "record_path": "records/POGO-2024-PO-C.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-D",
+  "record_path": "records/POGO-2024-PO-D.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-E",
+  "record_path": "records/POGO-2024-PO-E.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-F",
+  "record_path": "records/POGO-2024-PO-F.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-G",
+  "record_path": "records/POGO-2024-PO-G.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-H",
+  "record_path": "records/POGO-2024-PO-H.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-I",
+  "record_path": "records/POGO-2024-PO-I.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-J",
+  "record_path": "records/POGO-2024-PO-J.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-K",
+  "record_path": "records/POGO-2024-PO-K.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-L",
+  "record_path": "records/POGO-2024-PO-L.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-M",
+  "record_path": "records/POGO-2024-PO-M.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-N",
+  "record_path": "records/POGO-2024-PO-N.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-O",
+  "record_path": "records/POGO-2024-PO-O.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-P",
+  "record_path": "records/POGO-2024-PO-P.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-Q",
+  "record_path": "records/POGO-2024-PO-Q.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-R",
+  "record_path": "records/POGO-2024-PO-R.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-S",
+  "record_path": "records/POGO-2024-PO-S.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-T",
+  "record_path": "records/POGO-2024-PO-T.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-U",
+  "record_path": "records/POGO-2024-PO-U.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-V",
+  "record_path": "records/POGO-2024-PO-V.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-W",
+  "record_path": "records/POGO-2024-PO-W.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-X",
+  "record_path": "records/POGO-2024-PO-X.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-Y",
+  "record_path": "records/POGO-2024-PO-Y.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-Z",
+  "record_path": "records/POGO-2024-PO-Z.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AA",
+  "record_path": "records/POGO-2024-PO-AA.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AB",
+  "record_path": "records/POGO-2024-PO-AB.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AC",
+  "record_path": "records/POGO-2024-PO-AC.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AD",
+  "record_path": "records/POGO-2024-PO-AD.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AE",
+  "record_path": "records/POGO-2024-PO-AE.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AF",
+  "record_path": "records/POGO-2024-PO-AF.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AG",
+  "record_path": "records/POGO-2024-PO-AG.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AH",
+  "record_path": "records/POGO-2024-PO-AH.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AI",
+  "record_path": "records/POGO-2024-PO-AI.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AJ",
+  "record_path": "records/POGO-2024-PO-AJ.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AK",
+  "record_path": "records/POGO-2024-PO-AK.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AL",
+  "record_path": "records/POGO-2024-PO-AL.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AM",
+  "record_path": "records/POGO-2024-PO-AM.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AN",
+  "record_path": "records/POGO-2024-PO-AN.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AO",
+  "record_path": "records/POGO-2024-PO-AO.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AP",
+  "record_path": "records/POGO-2024-PO-AP.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AQ",
+  "record_path": "records/POGO-2024-PO-AQ.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AR",
+  "record_path": "records/POGO-2024-PO-AR.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AS",
+  "record_path": "records/POGO-2024-PO-AS.json"
+},
+{
+  "artifact_id": "POGO-2024-PO-AT",
+  "record_path": "records/POGO-2024-PO-AT.json"
+}
+],
+
+}
