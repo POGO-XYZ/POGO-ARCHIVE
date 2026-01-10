@@ -1,3 +1,410 @@
+
 {
-	
+  "archive_year": 2025,
+  "finalized_date": "2026-01-07",
+  "note": "Archive year 2025 is an introduction to the updated & evolving archival system, and was finalized in early 2026",
+
+  "records": [
+{
+  "artifact_id": "POGO-2025-PO-AU",
+  "record_path": "records/POGO-2025-PO-AU.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-AV",
+  "record_path": "records/POGO-2025-PO-AV.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-AW",
+  "record_path": "records/POGO-2025-PO-AW.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-AX",
+  "record_path": "records/POGO-2025-PO-AX.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-AY",
+  "record_path": "records/POGO-2025-PO-AY.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-AZ",
+  "record_path": "records/POGO-2025-PO-AZ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BA",
+  "record_path": "records/POGO-2025-PO-BA.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BB",
+  "record_path": "records/POGO-2025-PO-BB.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BC",
+  "record_path": "records/POGO-2025-PO-BC.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BD",
+  "record_path": "records/POGO-2025-PO-BD.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BE",
+  "record_path": "records/POGO-2025-PO-BE.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BF",
+  "record_path": "records/POGO-2025-PO-BF.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BG",
+  "record_path": "records/POGO-2025-PO-BG.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BH",
+  "record_path": "records/POGO-2025-PO-BH.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BI",
+  "record_path": "records/POGO-2025-PO-BI.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BJ",
+  "record_path": "records/POGO-2025-PO-BJ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BK",
+  "record_path": "records/POGO-2025-PO-BK.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BL",
+  "record_path": "records/POGO-2025-PO-BL.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BM",
+  "record_path": "records/POGO-2025-PO-BM.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-N",
+  "record_path": "records/POGO-2025-PO-N.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BO",
+  "record_path": "records/POGO-2025-PO-BO.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BP",
+  "record_path": "records/POGO-2025-PO-BP.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BQ",
+  "record_path": "records/POGO-2025-PO-BQ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BR",
+  "record_path": "records/POGO-2025-PO-BR.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BS",
+  "record_path": "records/POGO-2025-PO-BS.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BT",
+  "record_path": "records/POGO-2025-PO-BT.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BU",
+  "record_path": "records/POGO-2025-PO-BU.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BV",
+  "record_path": "records/POGO-2025-PO-BV.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BW",
+  "record_path": "records/POGO-2025-PO-BW.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BX",
+  "record_path": "records/POGO-2025-PO-BX.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BY",
+  "record_path": "records/POGO-2025-PO-BY.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-BZ",
+  "record_path": "records/POGO-2025-PO-BZ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CA",
+  "record_path": "records/POGO-2025-PO-CA.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CB",
+  "record_path": "records/POGO-2025-PO-CB.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CC",
+  "record_path": "records/POGO-2025-PO-CC.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CD",
+  "record_path": "records/POGO-2025-PO-CD.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CE",
+  "record_path": "records/POGO-2025-PO-CE.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CF",
+  "record_path": "records/POGO-2025-PO-CF.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CG",
+  "record_path": "records/POGO-2025-PO-CG.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CH",
+  "record_path": "records/POGO-2025-PO-CH.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CI",
+  "record_path": "records/POGO-2025-PO-CI.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CJ",
+  "record_path": "records/POGO-2025-PO-CJ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CK",
+  "record_path": "records/POGO-2025-PO-CK.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CL",
+  "record_path": "records/POGO-2025-PO-CL.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CM",
+  "record_path": "records/POGO-2025-PO-CM.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CN",
+  "record_path": "records/POGO-2025-PO-CN.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CO",
+  "record_path": "records/POGO-2025-PO-CO.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CP",
+  "record_path": "records/POGO-2025-PO-CP.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CQ",
+  "record_path": "records/POGO-2025-PO-CQ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CR",
+  "record_path": "records/POGO-2025-PO-CR.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CS",
+  "record_path": "records/POGO-2025-PO-CS.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CT",
+  "record_path": "records/POGO-2025-PO-CT.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CU",
+  "record_path": "records/POGO-2025-PO-CU.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CV",
+  "record_path": "records/POGO-2025-PO-CV.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CW",
+  "record_path": "records/POGO-2025-PO-CW.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CX",
+  "record_path": "records/POGO-2025-PO-CX.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CY",
+  "record_path": "records/POGO-2025-PO-CY.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-CZ",
+  "record_path": "records/POGO-2025-PO-CZ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DA",
+  "record_path": "records/POGO-2025-PO-DA.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DB",
+  "record_path": "records/POGO-2025-PO-DB.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DC",
+  "record_path": "records/POGO-2025-PO-DC.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DD",
+  "record_path": "records/POGO-2025-PO-DD.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DE",
+  "record_path": "records/POGO-2025-PO-DE.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DF",
+  "record_path": "records/POGO-2025-PO-DF.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DG",
+  "record_path": "records/POGO-2025-PO-DG.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DH",
+  "record_path": "records/POGO-2025-PO-DH.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DI",
+  "record_path": "records/POGO-2025-PO-DI.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DJ",
+  "record_path": "records/POGO-2025-PO-DJ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DK",
+  "record_path": "records/POGO-2025-PO-DK.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DL",
+  "record_path": "records/POGO-2025-PO-DL.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DM",
+  "record_path": "records/POGO-2025-PO-DM.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DN",
+  "record_path": "records/POGO-2025-PO-DN.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DO",
+  "record_path": "records/POGO-2025-PO-DO.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DP",
+  "record_path": "records/POGO-2025-PO-DP.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DQ",
+  "record_path": "records/POGO-2025-PO-DQ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DR",
+  "record_path": "records/POGO-2025-PO-DR.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DS",
+  "record_path": "records/POGO-2025-PO-DS.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DT",
+  "record_path": "records/POGO-2025-PO-DT.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DU",
+  "record_path": "records/POGO-2025-PO-DU.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DV",
+  "record_path": "records/POGO-2025-PO-DV.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DW",
+  "record_path": "records/POGO-2025-PO-DW.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DX",
+  "record_path": "records/POGO-2025-PO-DX.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DY",
+  "record_path": "records/POGO-2025-PO-DY.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-DZ",
+  "record_path": "records/POGO-2025-PO-DZ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EA",
+  "record_path": "records/POGO-2025-PO-EA.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EB",
+  "record_path": "records/POGO-2025-PO-EB.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EC",
+  "record_path": "records/POGO-2025-PO-EC.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-ED",
+  "record_path": "records/POGO-2025-PO-ED.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EE",
+  "record_path": "records/POGO-2025-PO-EE.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EF",
+  "record_path": "records/POGO-2025-PO-EF.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EG",
+  "record_path": "records/POGO-2025-PO-EG.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EH",
+  "record_path": "records/POGO-2025-PO-EH.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EI",
+  "record_path": "records/POGO-2025-PO-EI.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EJ",
+  "record_path": "records/POGO-2025-PO-EJ.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EK",
+  "record_path": "records/POGO-2025-PO-EK.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EL",
+  "record_path": "records/POGO-2025-PO-EL.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EM",
+  "record_path": "records/POGO-2025-PO-EM.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EN",
+  "record_path": "records/POGO-2025-PO-EN.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EO",
+  "record_path": "records/POGO-2025-PO-EO.json"
+},
+{
+  "artifact_id": "POGO-2025-PO-EP",
+  "record_path": "records/POGO-2025-PO-EP.json"
+}
+]
+
 }
