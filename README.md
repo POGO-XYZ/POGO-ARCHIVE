@@ -35,7 +35,7 @@ YYYY/
 
 ├── index-YYYY.json
 
-└── records/
+└── records-YYYY/
 
 ├── POGO-YYYY-XX-SEQ.json
 
@@ -81,7 +81,7 @@ This approach separates:
 
 POGO Studios uses a **single identification system** across all works, regardless of medium.
 
-Each work—whether physical or digital—is assigned a POGO ID at the time of creation.
+Each official work — whether physical or digital — is assigned a POGO ID at the time of completion.  For physical works only - this will additionally serve as an Archive ID.
 
 This archive records and indexes **physical works only**, but follows the same ID structure used studio-wide.
 
@@ -132,13 +132,13 @@ This list will expand as new formats or media are introduced.
 
 Sequencing depends on the type of work:
 
-- **Physical works** typically use an **alphabetic sequence**
+- **Physical works** use an **alphabetic sequence**
     
     (A–Z, AA–AZ, BA–BZ, etc.)
     
-- **Digital works** typically use a **numeric sequence**
+- **Digital works** use a **numeric sequence**
     
-    (01, 02, 03, etc.)
+    (01, 02, 03, 04, etc.)
     
 
 Sequencing systems are internal to POGO Studios and are recorded for reference, not interpretation.
@@ -147,7 +147,7 @@ Sequencing systems are internal to POGO Studios and are recorded for reference, 
 
 ### Archive Scope
 
-Only **physical works** are currently archived in this repository.
+Only **physical works** will be archived in this repository.
 
 Digital works may be referenced elsewhere online and on-chain, but are not indexed or recorded here at this time. The use of a unified ID system allows physical and digital works to coexist conceptually without requiring a single archive for all media.
 
@@ -182,11 +182,11 @@ POGO Studios maintains a studio seal used as a marker of authorship and authenti
 The seal exists in both physical and digital forms:
 
 - as a visual mark applied to physical artworks or certificates when applicable
-- as a design inscribed on Bitcoin as a permanent digital reference
+- as a design inscribed on Bitcoin serving as a permanent digital reference
 
 The inscribed seal serves as a symbolic root for the archive, establishing continuity between physical works, archival records, and cryptographic proof.
 
-While individual artworks are verified through their own records and yearly proofs, the seal represents the broader identity and authorship of POGO Studios rather than a dependency for individual verification.
+While individual artworks are verified through their unique records and yearly proofs, the archival seal represents the broader identity, authorship, and spirit of POGO Studios and adds an additional layer of authentication to each finalized work.
 
 ---
 
@@ -200,3 +200,37 @@ This archive is designed to be:
 - independent of any single marketplace or platform
 
 It exists to support the long-term integrity of physical artworks while remaining approachable to non-technical explorers.
+
+---
+
+## Archive Lifecycle
+
+The POGO Studios archive is organized by calendar year. Starting with creation year 2026 - each year will remain open while works are actively being created and recorded, and is formally closed once all records for that year are finalized. Archival years 2024 & 2025 were finalized in their entirety at the beginning of 2026. This was done to ensure that all records are up-to-date within the new archival system & aligned with the future ambitions of the studio.
+
+At closeout, the yearly archive index is cryptographically anchored on Bitcoin, marking the transition of that year’s works from active documentation into permanent historical record.
+
+This process provides a clear boundary between archival years while preserving continuity across time.
+
+---
+
+## Bitcoin Proofs & Archival Seal
+
+Each completed archive year is closed using a single Bitcoin inscription that serves as a public, immutable witness to the archive’s finalized state.
+
+These yearly Bitcoin proofs anchor the corresponding archive index and establish verifiable timestamps without storing artwork data on-chain.
+
+All yearly proofs exist within the lineage of the POGO Studios Archive Seal, a foundational Bitcoin inscription that represents authorship, identity, and continuity across the archive.
+
+The archive seal functions as a symbolic parent inscription for yearly proofs, establishing a common root for the archive without creating a dependency between individual works or years. Each yearly proof remains independently verifiable while participating in a shared archival lineage.
+
+Bitcoin inscriptions are used as cryptographic witnesses rather than storage. Preserving decentralization and permanence, while keeping the archive human-readable and maintainable over time.
+
+---
+
+## 2025 Closeout & 2026 Initiation
+
+The 2025 archive year has been officially finalized and cryptographically anchored on Bitcoin as a complete and verifiable historical record.
+
+With the closure of 2025, the archive is now open for the 2026 creation year. New physical works created in 2026 will be recorded under the 2026 archive structure and will remain open until the next yearly closeout.
+
+This approach allows the archive to evolve continuously over time, while preserving transparent and immutable snapshots of each completed year.
