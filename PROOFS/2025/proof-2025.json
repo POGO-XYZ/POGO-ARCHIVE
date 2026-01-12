@@ -9,6 +9,10 @@
   "record_count_year": 99,
   "record_count_total": 145,
 
-  "bitcoin_reference": null,
+  "bitcoin_reference": "inscription",
+  "archive_inscription_id": "3a38890ef84818e241f43ef96f92d1e9d2709b1adb046ff0569524bab70082e0i0",
+  "parent_inscription": "official_studio_seal",
+  "parent_inscription_id": "65910e5f8ac70b1c85d6b7973c64fa66e4a38ca87457603d495bfa3bd28a928ai0",
+
   "note": "Proof of closure of the 2025 Archive of physical artworks from Pogo Studios, and its transition into permanent historical record. Anchored on Bitcoin as permanent public witness."
 }
