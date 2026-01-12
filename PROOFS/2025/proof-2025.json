@@ -1,0 +1,14 @@
+
+{
+  "archive_year": 2025,
+  "anchored_artifact": "index-2025.json",
+  "hash_algorithm": "sha256",
+  "hash": "B356369605D772CE23C126F02EEBF1D00812E464050CD5164F5877AB84B78CB5",
+  "git_commit": "9c4779a9e0236e7e6575bebe3f995387130e5560",
+
+  "record_count_year": 99,
+  "record_count_total": 145,
+
+  "bitcoin_reference": null,
+  "note": "Proof of closure of the 2025 Archive of physical artworks from Pogo Studios, and its transition into permanent historical record. Anchored on Bitcoin as permanent public witness."
+}
