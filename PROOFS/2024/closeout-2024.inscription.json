@@ -1,0 +1,13 @@
+
+{
+  "protocol": "POGO_STUDIOS_ARCHIVE",
+  "version": "1.0.0",
+  "purpose": "year_closeout",
+  "archive_year": 2024,
+  "anchored_artifact": "index-2024.json",
+  "hash_algorithm": "sha256",
+  "hash": "F02938EBF658A8B7CC465584D8BC94405D1F96BFB6A54CA896015BD654A42906",
+  "git_commit": "c66dbf53e2291bcc98c29d4ca84468da65bf1e59",
+  "previous_closeout": null,
+  "note": "POGO Studios Archive Yearly Closeout for 2024"
+}
