@@ -1,197 +1,291 @@
 
 {
   "archive_year": 2024,
-  "finalized_date": "2026-01-03",
+  "archive_finalized_date": "2026-01-03",
   "note": "Archive year 2024 represents the first formal effort to digitally document physical artworks created by POGO Studios. Records from this year were originally documented using a decentralized, multi-chain archival approach and are now indexed here to provide a stable, human-readable reference aligned with the studio’s evolving archival practices.",
 
   "records": [
 {
   "artifact_id": "POGO-2024-PO-TEST",
-  "record_path": "records/POGO-2024-PO-TEST.json"
+  "record_path": "records/POGO-2024-PO-TEST.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-TEST.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-TEST.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-A",
-  "record_path": "records/POGO-2024-PO-A.json"
+  "record_path": "records/POGO-2024-PO-A.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-A.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-A.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-B",
-  "record_path": "records/POGO-2024-PO-B.json"
+  "record_path": "records/POGO-2024-PO-B.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-B.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-B.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-C",
-  "record_path": "records/POGO-2024-PO-C.json"
+  "record_path": "records/POGO-2024-PO-C.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-C.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-C.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-D",
-  "record_path": "records/POGO-2024-PO-D.json"
+  "record_path": "records/POGO-2024-PO-D.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-D.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-D.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-E",
-  "record_path": "records/POGO-2024-PO-E.json"
+  "record_path": "records/POGO-2024-PO-E.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-E.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-E.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-F",
-  "record_path": "records/POGO-2024-PO-F.json"
+  "record_path": "records/POGO-2024-PO-F.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-F.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-F.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-G",
-  "record_path": "records/POGO-2024-PO-G.json"
+  "record_path": "records/POGO-2024-PO-G.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-G.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-G.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-H",
-  "record_path": "records/POGO-2024-PO-H.json"
+  "record_path": "records/POGO-2024-PO-H.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-H.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-H.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-I",
-  "record_path": "records/POGO-2024-PO-I.json"
+  "record_path": "records/POGO-2024-PO-I.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-I.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-I.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-J",
-  "record_path": "records/POGO-2024-PO-J.json"
+  "record_path": "records/POGO-2024-PO-J.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-J.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-J.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-K",
-  "record_path": "records/POGO-2024-PO-K.json"
+  "record_path": "records/POGO-2024-PO-K.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-K.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-K.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-L",
-  "record_path": "records/POGO-2024-PO-L.json"
+  "record_path": "records/POGO-2024-PO-L.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-L.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-L.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-M",
-  "record_path": "records/POGO-2024-PO-M.json"
+  "record_path": "records/POGO-2024-PO-M.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-M.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-M.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-N",
-  "record_path": "records/POGO-2024-PO-N.json"
+  "record_path": "records/POGO-2024-PO-N.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-N.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-N.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-O",
-  "record_path": "records/POGO-2024-PO-O.json"
+  "record_path": "records/POGO-2024-PO-O.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-O.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-O.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-P",
-  "record_path": "records/POGO-2024-PO-P.json"
+  "record_path": "records/POGO-2024-PO-P.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-P.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-P.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-Q",
-  "record_path": "records/POGO-2024-PO-Q.json"
+  "record_path": "records/POGO-2024-PO-Q.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-Q.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-Q.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-R",
-  "record_path": "records/POGO-2024-PO-R.json"
+  "record_path": "records/POGO-2024-PO-R.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-R.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-R.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-S",
-  "record_path": "records/POGO-2024-PO-S.json"
+  "record_path": "records/POGO-2024-PO-S.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-S.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-S.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-T",
-  "record_path": "records/POGO-2024-PO-T.json"
+  "record_path": "records/POGO-2024-PO-T.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-T.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-T.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-U",
-  "record_path": "records/POGO-2024-PO-U.json"
+  "record_path": "records/POGO-2024-PO-U.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-U.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-U.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-V",
-  "record_path": "records/POGO-2024-PO-V.json"
+  "record_path": "records/POGO-2024-PO-V.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-V.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-V.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-W",
-  "record_path": "records/POGO-2024-PO-W.json"
+  "record_path": "records/POGO-2024-PO-W.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-W.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-W.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-X",
-  "record_path": "records/POGO-2024-PO-X.json"
+  "record_path": "records/POGO-2024-PO-X.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-X.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-X.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-Y",
-  "record_path": "records/POGO-2024-PO-Y.json"
+  "record_path": "records/POGO-2024-PO-Y.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-Y.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-Y.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-Z",
-  "record_path": "records/POGO-2024-PO-Z.json"
+  "record_path": "records/POGO-2024-PO-Z.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-Z.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-Z.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AA",
-  "record_path": "records/POGO-2024-PO-AA.json"
+  "record_path": "records/POGO-2024-PO-AA.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AA.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AA.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AB",
-  "record_path": "records/POGO-2024-PO-AB.json"
+  "record_path": "records/POGO-2024-PO-AB.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AB.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AB.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AC",
-  "record_path": "records/POGO-2024-PO-AC.json"
+  "record_path": "records/POGO-2024-PO-AC.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AC.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AC.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AD",
-  "record_path": "records/POGO-2024-PO-AD.json"
+  "record_path": "records/POGO-2024-PO-AD.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AD.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AD.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AE",
-  "record_path": "records/POGO-2024-PO-AE.json"
+  "record_path": "records/POGO-2024-PO-AE.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AE.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AE.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AF",
-  "record_path": "records/POGO-2024-PO-AF.json"
+  "record_path": "records/POGO-2024-PO-AF.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AF.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AF.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AG",
-  "record_path": "records/POGO-2024-PO-AG.json"
+  "record_path": "records/POGO-2024-PO-AG.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AG.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AG.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AH",
-  "record_path": "records/POGO-2024-PO-AH.json"
+  "record_path": "records/POGO-2024-PO-AH.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AH.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AH.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AI",
-  "record_path": "records/POGO-2024-PO-AI.json"
+  "record_path": "records/POGO-2024-PO-AI.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AI.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AI.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AJ",
-  "record_path": "records/POGO-2024-PO-AJ.json"
+  "record_path": "records/POGO-2024-PO-AJ.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AJ.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AJ.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AK",
-  "record_path": "records/POGO-2024-PO-AK.json"
+  "record_path": "records/POGO-2024-PO-AK.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AK.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AK.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AL",
-  "record_path": "records/POGO-2024-PO-AL.json"
+  "record_path": "records/POGO-2024-PO-AL.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AL.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AL.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AM",
-  "record_path": "records/POGO-2024-PO-AM.json"
+  "record_path": "records/POGO-2024-PO-AM.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AM.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AM.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AN",
-  "record_path": "records/POGO-2024-PO-AN.json"
+  "record_path": "records/POGO-2024-PO-AN.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AN.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AN.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AO",
-  "record_path": "records/POGO-2024-PO-AO.json"
+  "record_path": "records/POGO-2024-PO-AO.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AO.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AO.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AP",
-  "record_path": "records/POGO-2024-PO-AP.json"
+  "record_path": "records/POGO-2024-PO-AP.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AP.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AP.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AQ",
-  "record_path": "records/POGO-2024-PO-AQ.json"
+  "record_path": "records/POGO-2024-PO-AQ.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AQ.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AQ.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AR",
-  "record_path": "records/POGO-2024-PO-AR.json"
+  "record_path": "records/POGO-2024-PO-AR.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AR.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AR.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AS",
-  "record_path": "records/POGO-2024-PO-AS.json"
+  "record_path": "records/POGO-2024-PO-AS.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AS.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AS.JSON"
 },
 {
   "artifact_id": "POGO-2024-PO-AT",
-  "record_path": "records/POGO-2024-PO-AT.json"
+  "record_path": "records/POGO-2024-PO-AT.json",
+  "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2024/records-2024/POGO-2024-PO-AT.JSON",
+  "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2024/records-2024/POGO-2024-PO-AT.JSON"
 }
 ]
 
