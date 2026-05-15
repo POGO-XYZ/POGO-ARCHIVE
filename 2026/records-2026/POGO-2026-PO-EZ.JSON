@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "POGO-2026-PO-EZ",
+
+  "year": "2026",
+  "type_code": "PO",
+  "sequence": "EZ",
+
+  "dimensions": "04 in × 04 in",
+  "medium": "ink on 110lb paper",
+  "focus": "lines",
+
+  "series": "none",
+  "title": "untitled",
+  "notes": "none",
+
+  "files": [
+    {
+      "role": "reference_image_source",
+      "url": null,
+      "sha256": "3790EC18F0B58B9359F3B418B38BDFB52BB8DC4EE4996F855173E92EBAE4F3D5",
+      "mime_type": "image/png",
+      "note": "Artist-authored canonical source image (PNG)"
+    },
+    {
+      "role": "reference_image_web",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/bfc0ab21-dbfd-4ac7-a155-0da1f05cd3ba/POGO+26+PO+EZ.PNG",
+      "sha256": "C8AB2E46D6CEB90FC7BF24655626FA36970AF14DAA56E11BD693F1246BA2BC3C",
+      "mime_type": "image/webp",
+      "note": "Publicly served image as delivered by Squarespace CDN"
+    }
+  ],
+
+  "events": [
+    {
+      "event_id": "artwork completed",
+      "type": "creation",
+      "date": "2025",
+      "note": "Physical artwork completed"
+    },
+    {
+      "event_id": "artwork_recorded",
+      "type": "archival",
+      "date": "2026-05-15",
+      "note": "Recorded in the POGO Studios official archive"
+    }
+  ],
+
+  "attestations": []
+}

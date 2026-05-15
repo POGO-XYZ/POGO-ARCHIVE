@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "POGO-2026-PO-FN",
+
+  "year": "2026",
+  "type_code": "PO",
+  "sequence": "FN",
+
+  "dimensions": "08 in × 10 in",
+  "medium": "multicolored pencil on 140lb paper",
+  "focus": "scribble",
+
+  "series": "none",
+  "title": "untitled",
+  "notes": "none",
+
+  "files": [
+    {
+      "role": "reference_image_source",
+      "url": null,
+      "sha256": "028C32251E9BB95779CE9BCA5D6F1F869ED20F8C1474937F737A0D427507A2B2",
+      "mime_type": "image/png",
+      "note": "Artist-authored canonical source image (PNG)"
+    },
+    {
+      "role": "reference_image_web",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/c991a6d5-e567-49c3-9304-c0d392235e9c/POGO+26+PO+FN.PNG",
+      "sha256": "3F6787BEE917FAA4DBC9052B5FF814A72B2565A6B0999D7D2FE457CB99AE2057",
+      "mime_type": "image/webp",
+      "note": "Publicly served image as delivered by Squarespace CDN"
+    }
+  ],
+
+  "events": [
+    {
+      "event_id": "artwork completed",
+      "type": "creation",
+      "date": "2026",
+      "note": "Physical artwork completed"
+    },
+    {
+      "event_id": "artwork_recorded",
+      "type": "archival",
+      "date": "2026-05-15",
+      "note": "Recorded in the POGO Studios official archive"
+    }
+  ],
+
+  "attestations": []
+}

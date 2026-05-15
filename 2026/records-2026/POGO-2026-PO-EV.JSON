@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "POGO-2026-PO-EV",
+
+  "year": "2026",
+  "type_code": "PO",
+  "sequence": "EV",
+
+  "dimensions": "11 in × 14 in",
+  "medium": "ink on 140lb paper",
+  "focus": "lines",
+
+  "series": "none",
+  "title": "untitled",
+  "notes": "none",
+
+  "files": [
+    {
+      "role": "reference_image_source",
+      "url": null,
+      "sha256": "B7B5CC0F5DE1D13FD57B2A3FA0541E292B8E9B1BA1582A24F496879616852C38",
+      "mime_type": "image/png",
+      "note": "Artist-authored canonical source image (PNG)"
+    },
+    {
+      "role": "reference_image_web",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/8b3f57bb-b393-47bf-8576-c0cf54c7f3f4/POGO+26+PO+EV.PNG",
+      "sha256": "FC0312B27FD8CB0D19DDBC0953B117D5B58A3494F838BF5DDBDF72D0D670CAD8",
+      "mime_type": "image/webp",
+      "note": "Publicly served image as delivered by Squarespace CDN"
+    }
+  ],
+
+  "events": [
+    {
+      "event_id": "artwork completed",
+      "type": "creation",
+      "date": "2025",
+      "note": "Physical artwork completed"
+    },
+    {
+      "event_id": "artwork_recorded",
+      "type": "archival",
+      "date": "2026-05-15",
+      "note": "Recorded in the POGO Studios official archive"
+    }
+  ],
+
+  "attestations": []
+}

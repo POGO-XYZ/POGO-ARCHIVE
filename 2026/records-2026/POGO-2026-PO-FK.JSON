@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "POGO-2026-PO-FK",
+
+  "year": "2026",
+  "type_code": "PO",
+  "sequence": "FK",
+
+  "dimensions": "11 in × 17 in",
+  "medium": "ink on 103lb paper",
+  "focus": "one liner",
+
+  "series": "none",
+  "title": "untitled",
+  "notes": "none",
+
+  "files": [
+    {
+      "role": "reference_image_source",
+      "url": null,
+      "sha256": "EEA0CBC0FB72959ABFA6B4F6B5F8C5EE22C9E67E26D9C17A56A085DF34F56291",
+      "mime_type": "image/png",
+      "note": "Artist-authored canonical source image (PNG)"
+    },
+    {
+      "role": "reference_image_web",
+      "url": "https://images.squarespace-cdn.com/content/v1/6661cfe9e30d4e78635de587/050554fc-a832-4174-a6a7-a67849c5904f/POGO+26+PO+FK.PNG",
+      "sha256": "C9F6EB900F0BC6A7C1FB4F154915F65CDB7F7077C898CBDE22B1A4F93ABE6042",
+      "mime_type": "image/webp",
+      "note": "Publicly served image as delivered by Squarespace CDN"
+    }
+  ],
+
+  "events": [
+    {
+      "event_id": "artwork completed",
+      "type": "creation",
+      "date": "2026",
+      "note": "Physical artwork completed"
+    },
+    {
+      "event_id": "artwork_recorded",
+      "type": "archival",
+      "date": "2026-05-15",
+      "note": "Recorded in the POGO Studios official archive"
+    }
+  ],
+
+  "attestations": []
+}
