@@ -239,8 +239,9 @@ This approach allows the archive to evolve continuously over time, while preserv
 
 ## License
 
-The POGO Studios Archival System Documentation is licensed under CC BY 4.0. You are free to share and adapt this material for any purpose provided appropriate credit is given to POGO Studios as the originating source. See creativecommons.org/licenses/by/4.0 for full terms. 
+© 2025 POGO Studios. POGO Studios Archive — System Documentation and Philosophical Framework by POGO Studios is licensed under Creative Commons Attribution 4.0 International. You are free to share and adapt this material for any purpose provided appropriate credit is given to POGO Studios as the originating source.
 
-<a href="https://github.com/POGO-XYZ/POGO-ARCHIVE">Pogo Studios Archive - System Documentation and Philosophical Framework</a> © 2025 by <a href="https://www.pogostudios.xyz/">Pogo Studios</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+[![CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 
 ---
