@@ -231,6 +231,16 @@ Bitcoin inscriptions are used as cryptographic witnesses rather than storage. Pr
 
 The 2025 archive year has been officially finalized and cryptographically anchored on Bitcoin as a complete and verifiable historical record.
 
-With the closure of 2025, the archive is now open for the 2026 creation year. New physical works created in 2026 will be recorded under the 2026 archive structure and will remain open until the next yearly closeout.
+With the completion of 2025, the 2026 archive is now open for the current creation year. New physical works created in 2026 will be recorded and indexed under the official archive structure and remain open until the next yearly closeout.
 
 This approach allows the archive to evolve continuously over time, while preserving transparent and immutable snapshots of each completed year.
+
+---
+
+## License
+
+The POGO Studios Archival System Documentation is licensed under CC BY 4.0. You are free to share and adapt this material for any purpose provided appropriate credit is given to POGO Studios as the originating source. See creativecommons.org/licenses/by/4.0 for full terms. 
+
+<a href="https://github.com/POGO-XYZ/POGO-ARCHIVE">Pogo Studios Archive - System Documentation and Philosophical Framework</a> © 2025 by <a href="https://www.pogostudios.xyz/">Pogo Studios</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+
+---
