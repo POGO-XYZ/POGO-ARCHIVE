@@ -6,19 +6,30 @@ The archive exists to support long-term provenance, authenticity, and accessibil
 
 This is not a storefront or gallery. It is a reference system designed to remain readable and verifiable over time.
 
+For the philosophy behind this system, see [All Creation Testifies](https://www.pogostudios.xyz/writings/all-creation-testifies), the studio's written piece on the archive's purpose and vision.
+
 ---
+
+## Purpose
 
 ## Purpose
 
 POGO Studios assigns a single, consistent identification system across all works, both physical and digital.
 
-This archive focuses specifically on **physical artworks**, providing a durable digital record for works that exist materially in the world. While digital works also receive POGO IDs, they are not currently archived within this repository.
+This archive focuses specifically on **physical artworks**, providing a durable digital record for art that exists materially in the world. 
 
-The archive prioritizes:
+The system prioritizes:
 
-- clarity over complexity
-- longevity over convenience
-- human readability over automation
+* **Legibility as respect**
+  No decoder required — the record speaks plainly to anyone who opens it.
+* **One language across all media**
+  A single system, so every work belongs to the same coherent whole.
+* **Truth held apart from presentation**
+  What a work *is* does not depend on where it currently appears.
+* **A record that speaks for itself**
+  Built to remain intact and understandable without its creator present.
+* **Testimony, not just storage**
+  Permanence as the purpose — not a feature added on top.
 
 ---
 
@@ -56,24 +67,47 @@ Each record may include:
 - descriptive information (title, medium, dimensions, date)
 - references to publicly viewable images
 - cryptographic fingerprints of reference images
-- notes regarding creation , editioning, or status
 
-Images themselves are hosted externally (for example, on the POGO web gallery and/or storefront).
+Once committed, an artwork record is not altered. It represents a fixed, permanent statement of a work's documentation at the time of archiving.
+
+A work's current status — for example, available or collected — is tracked separately in `links/listings.json`, which is updated continuously as works leave the studio. This keeps the permanent documentation of a work's existence entirely separate from its current market or collection status, and preserves a clear distinction between what is fixed and what is living. Changes to listings are recorded through commits with explanatory messages, preserving a transparent history over time.
 
 This archive stores **references and verification data**, not image files.
+
+Images themselves are hosted in a dedicated companion repository — see Media, below.
 
 ---
 
 ## Image References & Verification
 
-Each artwork record includes one or more reference image URLs alongside cryptographic fingerprints.
+Each artwork record includes one or more reference image URLs alongside cryptographic fingerprints of those images.
 
-These fingerprints allow verification that a reference image has not changed since it was recorded, even if the image is viewed or hosted elsewhere.
+A work's image may appear in many places over time, and none of them are treated as the source of truth. What matters is not where an image currently lives, but whether it matches what was recorded at the time of documentation.
 
-This approach separates:
+This is the distinction this archive maintains between:
 
-- **visual presentation** (websites, galleries)
-- **truth and verification** (this archive)
+* **visual presentation** — how and where a work is shown, which is free to change over time.
+* **truth and verification** — a fixed, permanent record of what a work was, accessible regardless of where it's displayed.
+
+---
+
+## Media
+
+Reference images for archived works are stored separately in [POGO-ARCHIVE-MEDIA](https://github.com/POGO-XYZ/POGO-ARCHIVE-MEDIA), organized by year and named to match each work's POGO ID exactly.
+
+Each record's image reference links directly to its file in that repository, and the recorded SHA-256 fingerprint corresponds to that exact file as it existed at the time of documentation. If an image is ever missing, moved, or altered, its fingerprint will no longer match — making any discrepancy immediately evident.
+
+Separating media from records keeps this archive lightweight and focused on verification data, while keeping images independently accessible and reusable under the same open license.
+
+---
+
+## Certificates
+
+Each collected physical work is accompanied by a printed certificate. One side carries the studio seal and the phrase that defines the studio's creative philosophy; the other carries essential details, including the work's POGO ID, that cross-reference directly to its digital record, along with a direct reference to the full archive entry.
+
+The certificate is a point of entry, not the final word on authenticity. It travels with the work as a tangible bridge to the permanent verification layer described in this repository, and corresponds to the same ID stamped on the work itself.
+
+This format may be extended in the future — for example, through embedded NFC — without altering its underlying purpose.
 
 ---
 
@@ -124,7 +158,7 @@ Common codes include:
 - `DE` — Digital Edition
 - `BOI` — Bitcoin Original Inscription
 
-This list will expand as new formats or media are introduced.
+This list will expand as new formats or media are introduced - including potential future physical authentication layers such as embedded NFC.
 
 ---
 
@@ -145,7 +179,7 @@ Sequencing systems are internal to POGO Studios and are recorded for reference, 
 
 ---
 
-### Archive Scope
+## Archive Scope
 
 Only **physical works** will be archived in this repository.
 
@@ -153,13 +187,33 @@ Digital works may be referenced elsewhere online and on-chain, but are not index
 
 ---
 
-## Proofs & Permanence
+## Studio Seal & Authentication Mark
 
-Once per year, the yearly index file is anchored via external cryptographic proofs recorded on Bitcoin.
+POGO Studios maintains a studio seal used as a marker of authorship and authenticity.
 
-These proofs establish a permanent public timestamp showing that the archive existed in its recorded form by that date.
+This seal exists in multiple forms:
 
-Proof files related to yearly anchoring are stored in the `proofs/` directory.
+* stamped physically onto artworks in archival ink
+* printed on the certificate paired with each collected work
+* inscribed digitally on Bitcoin, serving as a permanent reference
+
+The inscribed seal serves as a symbolic root for the archive, establishing continuity between physical works, certificates, archival records, and cryptographic proof.
+
+While individual artworks are verified through their unique records and yearly proofs, the archival seal represents the broader identity, authorship, and spirit of POGO Studios, adding a further layer of authentication to each finalized work.
+
+---
+
+## Archive Lifecycle & Proofs
+
+The POGO Studios archive is organized by calendar year. Each year remains open while works are actively being created and recorded, and is formally closed once all records for that year are finalized.
+
+At closeout, that year's complete index is cryptographically anchored on Bitcoin — a single, permanent, timestamped commitment marking the transition from active documentation to settled historical record. Proof files related to yearly anchoring are stored in the `proofs/` directory.
+
+All yearly proofs exist within the lineage of the POGO Studios Archive Seal — a foundational Bitcoin inscription representing authorship, identity, and continuity across the archive. The seal functions as a symbolic parent inscription for yearly proofs, establishing a shared root without creating dependency between individual works or years. Each yearly proof remains independently verifiable while participating in this common lineage.
+
+Bitcoin inscriptions are used as cryptographic witnesses rather than storage — preserving decentralization and permanence while keeping the archive human-readable and maintainable over time.
+
+**See LEGACY.md** for details on the legacy archival system established in 2024, and its migration into the new canonical system at the start of 2026.
 
 ---
 
@@ -167,26 +221,11 @@ Proof files related to yearly anchoring are stored in the `proofs/` directory.
 
 This repository uses Git version history to preserve transparency over time.
 
-- New records may be added incrementally
-- Corrections or clarifications are recorded through commits
-- Previously recorded data remains accessible through history
+* New records may be added incrementally
+* Listing and status changes, corrections, or clarifications are recorded through commits with explanatory messages
+* Previously recorded data remains accessible through history
 
 The archive may evolve, but its history remains visible.
-
----
-
-## Studio Seal & Authentication Mark
-
-POGO Studios maintains a studio seal used as a marker of authorship and authenticity.
-
-The seal exists in both physical and digital forms:
-
-- as a visual mark applied to physical artworks or certificates when applicable
-- as a design inscribed on Bitcoin serving as a permanent digital reference
-
-The inscribed seal serves as a symbolic root for the archive, establishing continuity between physical works, archival records, and cryptographic proof.
-
-While individual artworks are verified through their unique records and yearly proofs, the archival seal represents the broader identity, authorship, and spirit of POGO Studios and adds an additional layer of authentication to each finalized work.
 
 ---
 
@@ -194,54 +233,19 @@ While individual artworks are verified through their unique records and yearly p
 
 This archive is designed to be:
 
-- public
-- inspectable
-- resilient
-- independent of any single marketplace or platform
+* public
+* inspectable
+* resilient
+* independent of any single marketplace or platform
 
 It exists to support the long-term integrity of physical artworks while remaining approachable to non-technical explorers.
 
 ---
 
-## Archive Lifecycle
-
-The POGO Studios archive is organized by calendar year. Starting with creation year 2026 - each year will remain open while works are actively being created and recorded, and is formally closed once all records for that year are finalized. Archival years 2024 & 2025 were finalized in their entirety at the beginning of 2026. This was done to ensure that all records are up-to-date within the new archival system & aligned with the future ambitions of the studio.
-
-At closeout, the yearly archive index is cryptographically anchored on Bitcoin, marking the transition of that year’s works from active documentation into permanent historical record.
-
-This process provides a clear boundary between archival years while preserving continuity across time.
-
----
-
-## Bitcoin Proofs & Archival Seal
-
-Each completed archive year is closed using a single Bitcoin inscription that serves as a public, immutable witness to the archive’s finalized state.
-
-These yearly Bitcoin proofs anchor the corresponding archive index and establish verifiable timestamps without storing artwork data on-chain.
-
-All yearly proofs exist within the lineage of the POGO Studios Archive Seal, a foundational Bitcoin inscription that represents authorship, identity, and continuity across the archive.
-
-The archive seal functions as a symbolic parent inscription for yearly proofs, establishing a common root for the archive without creating a dependency between individual works or years. Each yearly proof remains independently verifiable while participating in a shared archival lineage.
-
-Bitcoin inscriptions are used as cryptographic witnesses rather than storage. Preserving decentralization and permanence, while keeping the archive human-readable and maintainable over time.
-
----
-
-## 2025 Closeout & 2026 Initiation
-
-The 2025 archive year has been officially finalized and cryptographically anchored on Bitcoin as a complete and verifiable historical record.
-
-With the completion of 2025, the 2026 archive is now open for the current creation year. New physical works created in 2026 will be recorded and indexed under the official archive structure and remain open until the next yearly closeout.
-
-This approach allows the archive to evolve continuously over time, while preserving transparent and immutable snapshots of each completed year.
-
----
-
 ## License
 
-© 2025 POGO Studios. POGO Studios Archive — System Documentation and Philosophical Framework by POGO Studios is licensed under Creative Commons Attribution 4.0 International. You are free to share and adapt this material for any purpose provided appropriate credit is given to POGO Studios as the originating source.
+© 2025 POGO Studios. [POGO Studios Archive — System Documentation and Philosophical Framework](https://github.com/POGO-XYZ/POGO-ARCHIVE) by [POGO Studios](https://www.pogostudios.xyz) is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt this material for any purpose provided appropriate credit is given to POGO Studios as the originating source.
 
 [![CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
-
 
 ---
