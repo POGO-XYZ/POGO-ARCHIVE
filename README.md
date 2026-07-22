@@ -12,8 +12,6 @@ For the philosophy behind this system, see [All Creation Testifies](https://www.
 
 ## Purpose
 
-## Purpose
-
 POGO Studios assigns a single, consistent identification system across all works, both physical and digital.
 
 This archive focuses specifically on **physical artworks**, providing a durable digital record for art that exists materially in the world. 
@@ -42,17 +40,14 @@ Each year contains:
 - one index file listing all archived physical works from that year
 - a folder of individual artwork records
 
+```
 YYYY/
-
 ├── index-YYYY.json
-
 └── records-YYYY/
-
-├── POGO-YYYY-XX-SEQ.json
-
-├── POGO-YYYY-XX-SEQ.json
-
-└── ...
+    ├── POGO-YYYY-XX-SEQ.json
+    ├── POGO-YYYY-XX-SEQ.json
+    └── ...
+```
 
 Each official physical artwork has exactly one archive record file.
 
@@ -87,7 +82,7 @@ A work's image may appear in many places over time, and none of them are treated
 This is the distinction this archive maintains between:
 
 * **visual presentation** — how and where a work is shown, which is free to change over time.
-* **truth and verification** — a fixed, permanent record of what a work was, accessible regardless of where it's displayed.
+* **truth and verification** — a fixed, permanent record of what a work's image was, accessible regardless of where it's displayed.
 
 ---
 
@@ -115,7 +110,7 @@ This format may be extended in the future — for example, through embedded NFC 
 
 POGO Studios uses a **single identification system** across all works, regardless of medium.
 
-Each official work — whether physical or digital — is assigned a POGO ID at the time of completion.  For physical works only - this will additionally serve as an Archive ID.
+Each official work — whether physical or digital — is assigned a POGO ID at the time of completion. For physical works only — this will additionally serve as an Archive ID.
 
 This archive records and indexes **physical works only**, but follows the same ID structure used studio-wide.
 
@@ -158,7 +153,7 @@ Common codes include:
 - `DE` — Digital Edition
 - `BOI` — Bitcoin Original Inscription
 
-This list will expand as new formats or media are introduced - including potential future physical authentication layers such as embedded NFC.
+This list will expand as new formats or media are introduced — including potential future physical authentication layers such as embedded NFC.
 
 ---
 
