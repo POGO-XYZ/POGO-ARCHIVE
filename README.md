@@ -39,14 +39,16 @@ Each year contains:
 
 - one index file listing all archived physical works from that year
 - a folder of individual artwork records
+- a folder of timestamped proofs for those records
 
 ```
 YYYY/
 ├── index-YYYY.json
-└── records-YYYY/
-    ├── POGO-YYYY-XX-SEQ.json
-    ├── POGO-YYYY-XX-SEQ.json
-    └── ...
+├── records-YYYY/
+│   ├── POGO-YYYY-XX-SEQ.json
+│   └── ...
+└── timestamps-YYYY/
+    └── POGO-YYYY-XX-SEQ.json.ots
 ```
 
 Each official physical artwork has exactly one archive record file.
@@ -63,7 +65,7 @@ Each record may include:
 - references to publicly viewable images
 - cryptographic fingerprints of reference images
 
-Once committed, an artwork record is not altered. It represents a fixed, permanent statement of a work's documentation at the time of archiving.
+Once committed, an artwork record is not altered. It represents a fixed, permanent statement of a work's documentation at the time of archiving. Beginning in 2026, that permanence is made verifiable: each completed record's SHA-256 fingerprint is added to the index, and the record is timestamped on Bitcoin — establishing not only what was recorded, but when.
 
 A work's current status — for example, available or collected — is tracked separately in `links/listings.json`, which is updated continuously as works leave the studio. This keeps the permanent documentation of a work's existence entirely separate from its current market or collection status, and preserves a clear distinction between what is fixed and what is living. Changes to listings are recorded through commits with explanatory messages, preserving a transparent history over time.
 
@@ -120,7 +122,9 @@ This archive records and indexes **physical works only**, but follows the same I
 
 POGO IDs follow this general structure:
 
+```
 POGO-YYYY-TT-SSS
+```
 
 Where:
 
@@ -208,6 +212,8 @@ All yearly proofs exist within the lineage of the POGO Studios Archive Seal — 
 
 Bitcoin inscriptions are used as cryptographic witnesses rather than storage — preserving decentralization and permanence while keeping the archive human-readable and maintainable over time.
 
+Individual records are timestamped as documented via [OpenTimestamps](https://opentimestamps.org), with proofs stored in each year's `timestamps-YYYY/` folder. This practice began in July 2026; years closed before then are attested by their yearly anchor alone.
+
 **See LEGACY.md** for details on the legacy archival system established in 2024, and its migration into the new canonical system at the start of 2026.
 
 ---
@@ -239,7 +245,7 @@ It exists to support the long-term integrity of physical artworks while remainin
 
 ## License
 
-© 2025 POGO Studios. [POGO Studios Archive — System Documentation and Philosophical Framework](https://github.com/POGO-XYZ/POGO-ARCHIVE) by [POGO Studios](https://www.pogostudios.xyz) is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt this material for any purpose provided appropriate credit is given to POGO Studios as the originating source.
+© 2025–2026 POGO Studios. [POGO Studios Archive — System Documentation and Philosophical Framework](https://github.com/POGO-XYZ/POGO-ARCHIVE) by [POGO Studios](https://www.pogostudios.xyz) is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt this material for any purpose provided appropriate credit is given to POGO Studios as the originating source.
 
 [![CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
 
