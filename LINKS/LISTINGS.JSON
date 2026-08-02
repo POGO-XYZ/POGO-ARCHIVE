@@ -197,7 +197,7 @@
     "POGO-2024-PO-B": { "store_url": "https://www.pogostudios.xyz/physical-art/p/24-b", "status": "available" },
     "POGO-2024-PO-A": { "store_url": "https://www.pogostudios.xyz/physical-art/p/24-a", "status": "available" },
 
-    "POGO-2024-PO-TEST": { "store_url": "https://www.pogostudios.xyz/physical-art/p/24-test", "status": "available" }
+    "POGO-2024-PO-TEST": { "store_url": "https://www.pogostudios.xyz/physical-art/p/24-test", "status": "unavailable" }
 
   }
 
