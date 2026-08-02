@@ -35,6 +35,7 @@
 
     "POGO-2026-PO-EZ": { "store_url": "https://www.pogostudios.xyz/physical-art/p/26-ez", "status":"available" },
     "POGO-2026-PO-EY": { "store_url": "https://www.pogostudios.xyz/physical-art/p/26-ey", "status":"available" },
+    "POGO-2026-PO-EX": { "store_url": "https://www.pogostudios.xyz/physical-art/p/26-ex", "status":"available" },
     "POGO-2026-PO-EW": { "store_url": "https://www.pogostudios.xyz/physical-art/p/26-ew", "status":"available" },
     "POGO-2026-PO-EV": { "store_url": "https://www.pogostudios.xyz/physical-art/p/26-ev", "status":"available" },
     "POGO-2026-PO-EU": { "store_url": "https://www.pogostudios.xyz/physical-art/p/26-eu", "status":"available" },
@@ -144,7 +145,7 @@
     "POGO-2025-PO-AZ": { "store_url": "https://www.pogostudios.xyz/physical-art/p/25-az", "status": "available" },
     "POGO-2025-PO-AY": { "store_url": "https://www.pogostudios.xyz/physical-art/p/25-ay", "status": "collected" },
     "POGO-2025-PO-AX": { "store_url": "https://www.pogostudios.xyz/physical-art/p/25-ax", "status": "available" },
-    "POGO-2025-PO-AW": { "store_url": "https://www.pogostudios.xyz/physical-art/p/25-au", "status": "available" },
+    "POGO-2025-PO-AW": { "store_url": "https://www.pogostudios.xyz/physical-art/p/25-aw", "status": "available" },
     "POGO-2025-PO-AV": { "store_url": "https://www.pogostudios.xyz/physical-art/p/25-av", "status": "available" },
     "POGO-2025-PO-AU": { "store_url": "https://www.pogostudios.xyz/physical-art/p/25-au", "status": "available" },
 
@@ -196,7 +197,7 @@
     "POGO-2024-PO-B": { "store_url": "https://www.pogostudios.xyz/physical-art/p/24-b", "status": "available" },
     "POGO-2024-PO-A": { "store_url": "https://www.pogostudios.xyz/physical-art/p/24-a", "status": "available" },
 
-    "POGO-2024-PO-TEST": { "store_url": "https://www.pogostudios.xyz/physical-art/p/24-test", "status": "not available" }
+    "POGO-2024-PO-TEST": { "store_url": "https://www.pogostudios.xyz/physical-art/p/24-test", "status": "available" }
 
   }
 
