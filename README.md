@@ -67,7 +67,7 @@ Each record may include:
 
 Once committed, an artwork record is not altered. It represents a fixed, permanent statement of a work's documentation at the time of archiving. Beginning in 2026, that permanence is made verifiable: each completed record's SHA-256 fingerprint is added to the index, and the record is timestamped on Bitcoin — establishing not only what was recorded, but when.
 
-A work's current status — for example, available or collected — is tracked separately in `links/listings.json`, which is updated continuously as works leave the studio. This keeps the permanent documentation of a work's existence entirely separate from its current market or collection status, and preserves a clear distinction between what is fixed and what is living. Changes to listings are recorded through commits with explanatory messages, preserving a transparent history over time.
+A work's current status — for example, available, unavailable, or collected — is tracked separately in `links/listings.json`, which is updated continuously as works leave the studio. This keeps the permanent documentation of a work's existence entirely separate from its current market or collection status, and preserves a clear distinction between what is fixed and what is living. Changes to listings are recorded through commits with explanatory messages, preserving a transparent history over time.
 
 This archive stores **references and verification data**, not image files.
 
