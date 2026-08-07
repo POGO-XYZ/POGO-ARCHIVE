@@ -8,6 +8,8 @@ This is not a storefront or gallery. It is a reference system designed to remain
 
 For the philosophy behind this system, see [All Creation Testifies](https://www.pogostudios.xyz/writings/all-creation-testifies), the studio's written piece on the archive's purpose and vision.
 
+The archive can also be browsed, searched, and verified through the **[POGO Studios Archive app](https://app.pogostudios.xyz)** — a public interface that reads directly from this repository. It runs entirely in the browser, can be installed to a phone or desktop, and works offline. Source: [POGO-APP](https://github.com/POGO-XYZ/POGO-APP).
+
 ---
 
 ## Purpose
@@ -77,7 +79,7 @@ Images themselves are hosted in a dedicated companion repository — see Media, 
 
 ## Image References & Verification
 
-Each artwork record includes one or more reference image URLs alongside cryptographic fingerprints of those images.
+Each artwork record includes one or more reference image URLs alongside cryptographic fingerprints (Hashes) of those images.
 
 A work's image may appear in many places over time, and none of them are treated as the source of truth. What matters is not where an image currently lives, but whether it matches what was recorded at the time of documentation.
 
@@ -85,6 +87,8 @@ This is the distinction this archive maintains between:
 
 * **visual presentation** — how and where a work is shown, which is free to change over time.
 * **truth and verification** — a fixed, permanent record of what a work's image was, accessible regardless of where it's displayed.
+
+Some records also carry a fingerprint of a web-hosted rendition of the image. These were recorded before the media repository existed, when a website copy was the only publicly reachable version of a work's image. Because hosted renditions can be re-encoded or served at different sizes, the fingerprint is informational rather than for verification. **The source image fingerprint verifies a work's appearance at the time of its completion**and corresponds to the file stored in the media repository.
 
 ---
 
@@ -166,13 +170,22 @@ This list will expand as new formats or media are introduced — including poten
 Sequencing depends on the type of work:
 
 - **Physical works** use an **alphabetic sequence**
-    
-    (A–Z, AA–AZ, BA–BZ, etc.)
-    
+
+    (A–Z, then AA–AZ, BA–BZ, and onward to AAA and beyond)
+
 - **Digital works** use a **numeric sequence**
-    
+
     (01, 02, 03, 04, etc.)
-    
+
+The alphabetic sequence is **bijective base-26**: each letter carries a value from A=1 to Z=26, and sequences lengthen only once the previous length is exhausted. A through Z are the first twenty-six works; AA is the twenty-seventh.
+
+This has a practical consequence worth stating plainly, because it is easy to get wrong: **sequences must not be sorted alphabetically.** A plain alphabetical sort places AA immediately after A, skipping B through Z entirely, and would place AAA before B once three-character sequences begin.
+
+Correct chronological order sorts by **length first, then alphabetically within that length**:
+
+A, B, C … Z, AA, AB … AZ, BA, BB … ZZ, AAA, AAB …
+
+Equivalently, rank each sequence by its base-26 value. Any system reading this archive — a catalogue, a spreadsheet, an application — should apply this rule rather than a default string sort.
 
 Sequencing systems are internal to POGO Studios and are recorded for reference, not interpretation.
 
