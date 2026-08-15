@@ -75,7 +75,55 @@ This archive stores **references and verification data**, not image files.
 
 Images themselves are hosted in a dedicated companion repository — see Media, below.
 
+---# Addition for POGO-ARCHIVE README
+
+Place this after the **Artwork Records** section, before **Image References & Verification**.
+
 ---
+
+## Exhibitions
+
+Where a work has been shown is part of its provenance, and the archive records it.
+
+Exhibition history is held in `LINKS/EXHIBITIONS.JSON`, separate from both the records and the listings, for two reasons. Records are immutable once committed, so an exhibition years later cannot be written into them. And exhibition history is permanent in a way that availability is not — a show that closed in 2026 remains part of a work's history forever, while its status continues to change.
+
+The file is append-only. Past exhibitions are never removed.
+
+Each exhibition lists the works it included:
+
+```json
+{
+  "id": "EX-2026-01",
+  "title": "Exhibition title",
+  "venue": "Venue name",
+  "location": "City, State",
+  "opens": "2026-09-05",
+  "closes": "2026-10-10",
+  "url": "",
+  "acquisition": "venue",
+  "works": ["POGO-2026-PO-FA", "POGO-2026-PO-FB"]
+}
+```
+
+### Exhibition and availability are separate
+
+A work's `status` answers whether it can be acquired. An exhibition answers where it currently is. These are different questions and are recorded separately.
+
+A work on view at a gallery and available for purchase there remains `available`. It is not marked `unavailable`, because it can in fact be acquired — just in person rather than online. Removing its store listing for the duration of the show is sufficient to prevent an online sale; the archive continues to state plainly that the work exists, is available, and is currently hanging at a named venue through a stated date.
+
+The `acquisition` field records how a work may be acquired during a show:
+
+| Value | Meaning |
+|---|---|
+| `venue` | Available at the exhibition venue for its duration |
+| `studio` | Remains available through the studio as usual |
+| `none` | On view only; not available during the exhibition |
+
+Nothing needs to be edited when a show ends. Because the dates are recorded, an exhibition passes from upcoming to current to past on its own, and the archive reflects that without intervention.
+
+---
+
+*The [archive app](https://app.pogostudios.xyz) reads this file directly: works currently on view are marked as such, exhibitions can be filtered, and every work displays its full exhibition history.*
 
 ## Image References & Verification
 
