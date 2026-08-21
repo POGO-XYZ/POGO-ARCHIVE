@@ -35,7 +35,7 @@ The system prioritizes:
 
 ## Structure
 
-Artworks are organized by calendar year.
+Artworks are organized by year of archival — the year a work entered the archive, which is not always the year it was made. Each record holds both dates in its `events`: one for creation, one for archival.
 
 Each year contains:
 
@@ -44,12 +44,16 @@ Each year contains:
 - a folder of timestamped proofs for those records
 
 ```
+LINKS/
+├── LISTINGS.JSON
+└── EXHIBITIONS.JSON
+proofs/
 YYYY/
 ├── index-YYYY.json
 ├── records-YYYY/
 │   ├── POGO-YYYY-XX-SEQ.json
 │   └── ...
-└── timestamps-YYYY/
+└── timestamps-YYYY/          (2026 onward)
     └── POGO-YYYY-XX-SEQ.json.ots
 ```
 
@@ -75,9 +79,7 @@ This archive stores **references and verification data**, not image files.
 
 Images themselves are hosted in a dedicated companion repository — see Media, below.
 
----# Addition for POGO-ARCHIVE README
-
-Place this after the **Artwork Records** section, before **Image References & Verification**.
+A record may be written before its reference image is added. Until the media exists, the work is present in this repository but is not yet published to the archive app, which only displays works whose media can be shown and verified. Nothing is hidden — the record is here and readable — but a work is only fully archived once both its record and its media are committed.
 
 ---
 
@@ -136,7 +138,9 @@ This is the distinction this archive maintains between:
 * **visual presentation** — how and where a work is shown, which is free to change over time.
 * **truth and verification** — a fixed, permanent record of what a work's image was, accessible regardless of where it's displayed.
 
-Some records also carry a fingerprint of a web-hosted rendition of the image. These were recorded before the media repository existed, when a website copy was the only publicly reachable version of a work's image. Because hosted renditions can be re-encoded or served at different sizes, the fingerprint is informational rather than for verification. **The source image fingerprint verifies a work's appearance at the time of its completion**and corresponds to the file stored in the media repository.
+Some records also carry a fingerprint of a web-hosted rendition of the image. These were recorded before the media repository existed, when a website copy was the only publicly reachable version of a work's image. Because hosted renditions can be re-encoded or served at different sizes, the fingerprint is informational rather than for verification. **The source image fingerprint verifies a work's appearance at the time of its completion** and corresponds to the file stored in the media repository.
+
+Some records also carry a fingerprint of a web-hosted rendition of the image. These were recorded before the media repository existed, when a website copy was the only publicly reachable version of a work. Because hosted renditions can be re-encoded or served at different sizes, that fingerprint is informational rather than verifying. **The source image fingerprint is the one that verifies a work**, and it corresponds to the file held in the media repository.
 
 ---
 
@@ -181,7 +185,7 @@ POGO-YYYY-TT-SSS
 Where:
 
 - `POGO` identifies POGO Studios
-- `YYYY` represents the year of record
+- `YYYY` represents the year the work was archived
 - `TT` is a short type code indicating medium or format
 - `SSS` is a sequential identifier
 
@@ -229,11 +233,13 @@ The alphabetic sequence is **bijective base-26**: each letter carries a value fr
 
 This has a practical consequence worth stating plainly, because it is easy to get wrong: **sequences must not be sorted alphabetically.** A plain alphabetical sort places AA immediately after A, skipping B through Z entirely, and would place AAA before B once three-character sequences begin.
 
-Correct chronological order sorts by **length first, then alphabetically within that length**:
+Correct order sorts by **length first, then alphabetically within that length**:
 
 A, B, C … Z, AA, AB … AZ, BA, BB … ZZ, AAA, AAB …
 
 Equivalently, rank each sequence by its base-26 value. Any system reading this archive — a catalogue, a spreadsheet, an application — should apply this rule rather than a default string sort.
+
+**`TEST` is reserved.** It is not a position in the alphabet and is not sorted as one. Records using it always order ahead of A, as record zero. A `TEST` record exists so the archive's structure and tooling can be exercised against a real record without disturbing the catalogue.
 
 Sequencing systems are internal to POGO Studios and are recorded for reference, not interpretation.
 
