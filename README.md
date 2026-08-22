@@ -73,7 +73,7 @@ Each record may include:
 
 Once committed, an artwork record is not altered. It represents a fixed, permanent statement of a work's documentation at the time of archiving. Beginning in 2026, that permanence is made verifiable: each completed record's SHA-256 fingerprint is added to the index, and the record is timestamped on Bitcoin — establishing not only what was recorded, but when.
 
-A work's current status — for example, available, unavailable, or collected — is tracked separately in `links/listings.json`, which is updated continuously as works leave the studio. This keeps the permanent documentation of a work's existence entirely separate from its current market or collection status, and preserves a clear distinction between what is fixed and what is living. Changes to listings are recorded through commits with explanatory messages, preserving a transparent history over time.
+A work's current status — for example, available, unavailable, or collected — is tracked separately in `LINKS/LISTINGS.JSON`, which is updated continuously as works leave the studio. This keeps the permanent documentation of a work's existence entirely separate from its current market or collection status, and preserves a clear distinction between what is fixed and what is living. Changes to listings are recorded through commits with explanatory messages, preserving a transparent history over time.
 
 This archive stores **references and verification data**, not image files.
 
@@ -81,11 +81,44 @@ Images themselves are hosted in a dedicated companion repository — see Media, 
 
 A record may be written before its reference image is added. Until the media exists, the work is present in this repository but is not yet published to the archive app, which only displays works whose media can be shown and verified. Nothing is hidden — the record is here and readable — but a work is only fully archived once both its record and its media are committed.
 
+### Focus
+
+`focus` describes what a work is doing formally — how its marks behave, rather than what it depicts. It is a controlled vocabulary: a finite list of defined terms, not free text. Filters depend on it, so values are added deliberately and never improvised.
+
+| Term | Meaning |
+|---|---|
+| `lines` | Fields of separate, largely straight marks. |
+| `zigzag` | Angular paths turning back on themselves at sharp corners. |
+| `winding` | Curved gestures turning smoothly — loops, hairpins, and rounded reversals. |
+| `none` | No formal focus recorded. |
+
+Terms describe the behaviour of the line, not the medium, the palette, or the subject. A work has exactly one focus.
+
+Adding a term means adding it to this table first, with a definition. Reclassifying existing works under a new term is a normal act of cataloguing: the work has not changed, only the vocabulary describing it. Such changes are made openly, with the reasoning in the commit message, and every prior state remains readable in the repository's history.
+
+### Sets and series
+
+Some works are related to one another. The archive distinguishes two kinds of relationship, because they behave differently.
+
+**A set** is a single work made of multiple pieces, acquired together and never separated. It has one ID, one record, and one reference image showing all of its pieces. The quantity is carried in the dimensions field, ahead of a colon:
+
+4 : 03 in × 03 in
+
+— a set of four pieces, each three inches square.
+
+**A series** is a selection of works intentionally grouped but catalogued and acquired separately. Each has its own ID, record, and image. They are bound by a shared `series` value naming the group:
+
+```json
+"series": "florellations"
+```
+
+Series are often intended to be selective groupings of works that can easily be exhibited together, but acquired independently.
+
 ---
 
 ## Exhibitions
 
-Where a work has been shown is part of its provenance, and the archive records it.
+Where a work has been shown is part of its provenance, and the archive records it. 
 
 Exhibition history is held in `LINKS/EXHIBITIONS.JSON`, separate from both the records and the listings, for two reasons. Records are immutable once committed, so an exhibition years later cannot be written into them. And exhibition history is permanent in a way that availability is not — a show that closed in 2026 remains part of a work's history forever, while its status continues to change.
 
@@ -126,6 +159,8 @@ Nothing needs to be edited when a show ends. Because the dates are recorded, an 
 ---
 
 *The [archive app](https://app.pogostudios.xyz) reads this file directly: works currently on view are marked as such, exhibitions can be filtered, and every work displays its full exhibition history.*
+
+---
 
 ## Image References & Verification
 
