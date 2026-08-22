@@ -2,15 +2,16 @@
   "schema_version": "1.0.0",
   "artifact_id": "POGO-2024-PO-TEST",
 
-  "title": "Untitled",
+  "title": "untitled",
   "year": "2024",
   "type_code": "PO",
   "sequence": "TEST",
 
-  "dimensions": "5 in x 5 in",
-  "medium": "Ink on 140lb paper",
+  "dimensions": "5 in × 5 in",
+  "medium": "ink on 140lb paper",
+  "focus": "multi",
   "series": "none",
-  "notes": "Test Image",
+  "notes": "test image",
 
   "files": [
     {

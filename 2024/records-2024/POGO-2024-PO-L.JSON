@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "artifact_id": "POGO-2024-PO-L",
 
-  "title": "Untitled",
-  "year": "2023",
+  "title": "untitled",
+  "year": "2024",
   "type_code": "PO",
   "sequence": "L",
 
@@ -34,7 +34,7 @@
     {
       "event_id": "artwork completed",
       "type": "creation",
-      "date": "2024",
+      "date": "2023",
       "note": "Physical artwork completed"
     },
     {

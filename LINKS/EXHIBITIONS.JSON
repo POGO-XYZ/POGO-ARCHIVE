@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-08-13",
+  "note": "Exhibition history for works in the POGO Studios Archive. Append-only: past exhibitions are never removed, since exhibition history is part of a work's provenance. Dates are ISO (YYYY-MM-DD). A work may appear in more than one exhibition.",
+  "exhibitions": [
+    {
+      "id": "EX-2026-01",
+      "title": "Exhibition title",
+      "venue": "Elemental Coffee",
+      "location": "Oklahoma City, Oklahoma",
+      "opens": "2026-09-15",
+      "closes": "2026-12-15",
+      "url": "none",
+      "acquisition": "venue",
+      "note": "Works in this exhibition are available for acquisition at the venue for the duration of the show.",
+      "works": [
+        "POGO-2026-PO-",
+        "POGO-2026-PO-"
+      ]
+    }
+  ]
+}
