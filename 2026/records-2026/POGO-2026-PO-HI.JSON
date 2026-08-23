@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2026-PO-GZ",
+  "artifact_id": "POGO-2026-PO-HI",
 
   "year": "2026",
   "type_code": "PO",
-  "sequence": "GZ",
+  "sequence": "HI",
 
-  "dimensions": "09 in × 12 in",
-  "medium": "ink on 103lb paper",
+  "dimensions": "14 in × 17 in",
+  "medium": "ink on 135lb paper",
   "focus": "lines",
 
   "series": "none",

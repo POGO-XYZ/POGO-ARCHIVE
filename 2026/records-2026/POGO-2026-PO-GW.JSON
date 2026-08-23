@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "artifact_id": "POGO-2026-PO-GU",
+  "artifact_id": "POGO-2026-PO-GW",
 
   "year": "2026",
   "type_code": "PO",
-  "sequence": "GU",
+  "sequence": "GW",
 
   "dimensions": "04 in × 04 in",
   "medium": "ink on 110lb paper",
-  "focus": "lines",
+  "focus": "winding",
 
   "series": "none",
   "set": "none",
