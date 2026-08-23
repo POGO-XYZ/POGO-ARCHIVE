@@ -5,17 +5,15 @@
   "exhibitions": [
     {
       "id": "EX-2026-01",
-      "title": "Exhibition title",
-      "venue": "Elemental Coffee",
-      "location": "Oklahoma City, Oklahoma",
+      "title": "TBA",
+      "venue": "TBA",
+      "location": "Oklahoma City, OK - USA",
       "opens": "2026-09-15",
       "closes": "2026-12-15",
       "url": "none",
-      "acquisition": "venue",
+      "acquisition": "at venue",
       "note": "Works in this exhibition are available for acquisition at the venue for the duration of the show.",
-      "works": [
-        ""
-      ]
+      "works": []
     }
   ]
 }
