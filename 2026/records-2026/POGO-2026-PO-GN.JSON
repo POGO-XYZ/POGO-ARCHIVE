@@ -18,16 +18,9 @@
     {
       "role": "reference_image_source",
       "url": null,
-      "sha256": "",
+      "sha256": "D1A548A35FE3456501DB569BCD98DCBCC61DE00874E6D41E51C647A565862994",
       "mime_type": "image/png",
       "note": "Artist-authored canonical source image (PNG)"
-    },
-    {
-      "role": "reference_image_web",
-      "url": "",
-      "sha256": "",
-      "mime_type": "image/webp",
-      "note": "Publicly served image as delivered by Squarespace CDN"
     }
   ],
 
@@ -41,7 +34,7 @@
     {
       "event_id": "artwork_recorded",
       "type": "archival",
-      "date": "",
+      "date": "2026-09-11",
       "note": "Recorded in the POGO Studios official archive"
     }
   ],
