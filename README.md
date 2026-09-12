@@ -8,7 +8,9 @@ This is not a storefront or gallery. It is a reference system designed to remain
 
 For the philosophy behind this system, see [All Creation Testifies](https://www.pogostudios.xyz/writings/all-creation-testifies), the studio's written piece on the archive's purpose and vision.
 
-The archive can also be browsed, searched, and verified through the **[POGO Studios Archive app](https://app.pogostudios.xyz)** — a public interface that reads directly from this repository. It runs entirely in the browser, can be installed to a phone or desktop, and works offline. Source: [POGO-APP](https://github.com/POGO-XYZ/POGO-APP).
+---
+
+The POGO Archive can also be browsed, searched, and verified through the **POGO APP** - **[POGO Studios Archive app](https://app.pogostudios.xyz)** — a public interface that reads directly from this repository. It runs entirely in the browser, can be installed to a phone or desktop, and works offline. Source: [POGO-APP](https://github.com/POGO-XYZ/POGO-APP).
 
 ---
 
