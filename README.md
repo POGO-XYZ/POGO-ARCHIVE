@@ -87,10 +87,18 @@ A record may be written before its reference image is added. Until the media exi
 
 | Term | Meaning |
 |---|---|
-| `lines` | Fields of separate, largely straight marks. |
-| `zigzag` | Angular paths turning back on themselves at sharp corners. |
-| `winding` | Curved gestures turning smoothly — loops, hairpins, and rounded reversals. |
-| `none` | No formal focus recorded. |
+| `lines` | separate largely straight marks |
+| `zigzag` | lines that zig and zag, or sharply switchback|
+| `winding` | lines that curve, flow, and wind |
+| `blobs` | organic blobby shapes |
+| `grid` | measured grid |
+| `flex grid` | unmeasured flexible grid |
+| `floral` | marks that form floral scapes |
+| `dots` | assorted and layered dots |
+| `multi` | multiple combined focus points; ex: lines & dots |
+| `geometric` | combined geometric shapes |
+| `scribble` | simple scribbles |
+| `one-liner` | made with only one continuous line |
 
 Terms describe the behaviour of the line, not the medium, the palette, or the subject. A work has exactly one focus.
 
@@ -313,6 +321,8 @@ At closeout, that year's complete index is cryptographically anchored on Bitcoin
 All yearly proofs exist within the lineage of the POGO Studios Archive Seal — a foundational Bitcoin inscription representing authorship, identity, and continuity across the archive. The seal functions as a symbolic parent inscription for yearly proofs, establishing a shared root without creating dependency between individual works or years. Each yearly proof remains independently verifiable while participating in this common lineage.
 
 Bitcoin inscriptions are used as cryptographic witnesses rather than storage — preserving decentralization and permanence while keeping the archive human-readable and maintainable over time.
+
+A closeout inscription records both the SHA-256 of the year's index and the git commit at which it was anchored. The hash is computed over the file as the repository stores it. Recording both means the anchor remains verifiable even if the index is later amended: the commit pins the exact state attested to.
 
 Individual records are timestamped as documented via [OpenTimestamps](https://opentimestamps.org), with proofs stored in each year's `timestamps-YYYY/` folder. This practice began in July 2026; years closed before then are attested by their yearly anchor alone.
 
