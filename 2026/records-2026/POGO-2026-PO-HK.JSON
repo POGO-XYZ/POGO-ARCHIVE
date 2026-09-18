@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "POGO-2026-PO-HK",
+
+  "year": "2026",
+  "type_code": "PO",
+  "sequence": "HK",
+
+  "dimensions": "24 in × 48 in",
+  "medium": "acrylic on canvas",
+  "focus": "floral",
+
+  "series": "florellations",
+  "set": "none",
+  "title": "untitled",
+  "notes": "none",
+
+  "files": [
+    {
+      "role": "reference_image_source",
+      "url": null,
+      "sha256": "28f203c37adc8b78511695dc3a114b45dd80aeabae385c013e1227b556fe92db",
+      "mime_type": "image/png",
+      "note": "Artist-authored canonical source image (PNG)"
+    }
+  ],
+
+  "events": [
+    {
+      "event_id": "artwork completed",
+      "type": "creation",
+      "date": "2026",
+      "note": "Physical artwork completed"
+    },
+    {
+      "event_id": "artwork_recorded",
+      "type": "archival",
+      "date": "2026-09-17",
+      "note": "Recorded in the POGO Studios official archive"
+    }
+  ],
+
+  "attestations": []
+}

@@ -499,6 +499,13 @@
       "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2026/records-2026/POGO-2026-PO-HI.JSON",
       "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2026/records-2026/POGO-2026-PO-HI.JSON",
       "record_hash": "ad979e4f9a165da368504153f31f0755d78eaa8c6a229b0a54782fbb0b743622"
+    },
+    {
+      "artifact_id": "POGO-2026-PO-HK",
+      "record_path": "records/records-2026/POGO-2026-PO-HK.json",
+      "record_data": "https://raw.githubusercontent.com/POGO-XYZ/POGO-ARCHIVE/refs/heads/main/2026/records-2026/POGO-2026-PO-HK.JSON",
+      "record_view": "https://github.com/POGO-XYZ/POGO-ARCHIVE/blob/main/2026/records-2026/POGO-2026-PO-HK.JSON",
+      "record_hash": "649b69576aa10b543d9e7c398475dc33ea96bd63036638ec36334fc8d2ad10d0"
     }
   ]
 }
