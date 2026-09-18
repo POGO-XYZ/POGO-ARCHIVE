@@ -6,14 +6,32 @@
     {
       "id": "EX-2026-01",
       "title": "N/A",
-      "venue": "Elemental Coffee Roasters",
+      "venue": "Elemental Coffee",
       "location": "Oklahoma City, OK - USA",
-      "opens": "2026-09-15",
-      "closes": "2026-12-15",
-      "url": "none",
-      "acquisition": "at venue",
+      "opens": "2026-09-18",
+      "closes": "2026-12-18",
+      "url": "",
+      "acquisition": "venue",
       "note": "Works in this exhibition are available for acquisition at the venue for the duration of the show.",
-      "works": []
+      "works": [
+        "POGO-2024-PO-X",
+        "POGO-2024-PO-Y",
+        "POGO-2024-PO-AB",
+        "POGO-2024-PO-AK",
+        "POGO-2025-PO-AZ",
+        "POGO-2026-PO-HK",
+        "POGO-2024-PO-O",
+        "POGO-2024-PO-H",
+        "POGO-2024-PO-I",
+        "POGO-2024-PO-E",
+        "POGO-2026-PO-FM",
+        "POGO-2026-PO-FQ",
+        "POGO-2026-PO-EW",
+        "POGO-2026-PO-FN",
+        "POGO-2024-PO-AQ",
+        "POGO-2025-PO-BN",
+        "POGO-2026-PO-U"
+      ]
     }
   ]
 }
